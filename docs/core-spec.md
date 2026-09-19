@@ -183,6 +183,35 @@ Dotty introduces the energy sims with: "It's just math. TNT, and how you release
 and what happens." The sims model energy abstractly — quantities, release profiles,
 consequences — never mechanisms. That is the rule, stated in her voice, up front.
 
+## THE WORLD WATCHES — the tail, the Sun, the months of debate (user canon, 2026-09-19)
+The heist is not secret. It cannot be. Everybody sees it coming — for MONTHS.
+- THE TAIL: the voyage strips ice and rock off the moon, and the debris trails behind
+  like a cometary tail — megatons of cast-off mass following in its wake.
+- THE SUN WARMS IT: as the moon travels inward, the Sun heats the tail — volatiles
+  sublimate, the tail brightens and spreads. A stolen moon with a glowing tail,
+  visible in telescopes, then in the sky. That is why the world cannot look away.
+- THE DEBATE: nations watch, argue, grandstand. Months of it: who authorized this?
+  Who owns a moon? Was there life — or anything — in what they stripped away? The
+  moral questions pile up faster than the answers. Protests, summits, resolutions;
+  the moon keeps coming.
+- THE ACTOR'S RESPONSE: the country (or whoever) that pulled it off has to answer the
+  world while the evidence burns across the sky. Voss's cover story under maximum
+  pressure — the helium-3 lie told with a glowing tail overhead. What they say, and
+  what it costs them, is a story thread, not a press release.
+- THE DAMAGE QUESTION (open): what does the debris do? A meteor uptick on Earth?
+  Satellite losses? A footprint the sims can model — "TAIL FOOTPRINT" as a possible
+  sim: where the cast-off mass goes, and what it hits. Dotty marks the casualty
+  figures [DISPUTED].
+- TIMELINE: the whole arc runs about 4–5 years (fits the 2049–2052 chain); dramatic
+  compression is fine where the story needs speed ("fast will be good").
+
+## THE QUOTE (user canon, 2026-09-19)
+At the first big energy release — the moment the telemetry confirms the deep charge
+lit — the room goes quiet, and one of the scientists says the line that makes the
+history books. DRAFT (refine in build):
+"We didn't crack a moon tonight. We cracked the century."
+(Oppenheimer-grade beat: the quote the world replays while the tail crosses the sky.)
+
 ## Buried charges
 Charges placed UNDER the ice at 2 / 7 / 17 / 25 miles deep — subsurface detonations
 coupling directly into shell and core. 2 mi = shallow pop (weak coupling, low risk);
