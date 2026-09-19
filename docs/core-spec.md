@@ -157,6 +157,32 @@ Not a weapon design. The CASCADE EFFECT: the core breeds fuel as it works.
   shift the regime balance and watch the cascade re-tune. Honest labels throughout:
   SCHEMATIC — NOT TO SCALE, rates fictional.
 
+## THE SEED — robots deep under the ice (user canon, 2026-09-19)
+The crew does not stay. They SEED the moon: robots placed deep under the ice, autonomous,
+built to live off the moon itself.
+- They do not bring fuel. They do not NEED fuel. Everything is there — the fissionables,
+  the hydrogen ice, the cascade breeding more as it burns. Just access it and use it.
+- The robots tap the cascade, maintain the burn profile, keep the telemetry flowing.
+  The moon becomes a self-sustaining machine: fuel, reactor, and crew, all in one body.
+- In 2051, the archive still holds robot telemetry. Some of it is recent. Dotty does
+  not say whether anything is still awake down there. Exhibit idea: a telemetry feed
+  with timestamps that should have stopped — and didn't.
+- Ren's sabotage axis: the robots are the hands she has to stay ahead of — or turn.
+
+## SCALE — Tsar vs californium (user canon, 2026-09-19)
+- Real anchor: the Tsar Bomba (~50 megatons, 1961) remains the largest nuclear
+  detonation in human history. It was big.
+- It is nothing compared to a californium release from the core's inventory. The
+  archive's models for that scale do not fit on the same chart — Dotty shows the Tsar
+  bar, then the axis breaks. (Fictional quantities, labeled as such.)
+- This is the "massive energy" made legible: the reader's whole prior scale for
+  "big explosion" stops applying.
+
+## DOTTY'S LINE — the sim's honesty (user canon, 2026-09-19)
+Dotty introduces the energy sims with: "It's just math. TNT, and how you release it,
+and what happens." The sims model energy abstractly — quantities, release profiles,
+consequences — never mechanisms. That is the rule, stated in her voice, up front.
+
 ## Buried charges
 Charges placed UNDER the ice at 2 / 7 / 17 / 25 miles deep — subsurface detonations
 coupling directly into shell and core. 2 mi = shallow pop (weak coupling, low risk);
