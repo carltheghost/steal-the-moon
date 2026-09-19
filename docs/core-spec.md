@@ -72,6 +72,29 @@ is the horror. Rule: fuel consumed = load-bearing mass removed = Slip accelerate
 Burn table: Conservative −4 ice/+5 progress/+1 slip; Hard −9/+14/+4;
 Emergency −15/+25/+9. Shell Debt = delayed consequences.
 
+## THE TWO PRESSURES — natural nucleosynthesis, live (user canon, 2026-09-19)
+The core is not a dead rock with old elements in it. It is still COOKING. The trick is
+pressure — two regimes, two fates:
+- PRESSURE ONE (deep, crushing): neutrons jump mineral to mineral — neutron capture
+  cascades hopping from one exotic metal to the next, building heavier and heavier
+  nuclei. Natural synthesis, live. This is where the superheavies past 118 get built
+  and where the island-of-stability pockets get fed.
+- PRESSURE TWO (different, lesser): the same exotics behave differently — particles
+  escape, protons get shoved out (proton emission), decay chains run down other paths.
+  What Pressure One builds, Pressure Two can unbuild.
+- Both regimes end the same way: they forge NEW STABLE exotic minerals with no Earth
+  equivalent. Exotic in, exotic out — the end products are stable forms of matter we
+  have never seen.
+So the core is a planet-scale natural reactor with pressure-gated transmutation:
+decay under one pressure, capture cascades under another, new stable matter as the
+ash. (Real anchors, thin: pressure measurably shifts some decay rates on Earth via
+electron capture; neutron capture is how stars forge heavy elements; Oklo proves
+nature builds reactors without asking permission.)
+- Millennium-Question form: "Map the transmutation network." Nobody has. The archive
+  has partial decay/capture logs; Dotty marks the rest [UNOBSERVED].
+- Exhibit: a TWO PRESSURES diagram for the Core screens — same feedstock, two
+  pressure columns, two different element ladders, converging on new stable exotics.
+
 ## Buried charges
 Charges placed UNDER the ice at 2 / 7 / 17 / 25 miles deep — subsurface detonations
 coupling directly into shell and core. 2 mi = shallow pop (weak coupling, low risk);
