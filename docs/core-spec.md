@@ -35,7 +35,36 @@ readings, not the zoned information structure. STATUS: REJECTED / EVIDENCE INSUF
 (B) ENGINEERED ARTIFACT — the zonation is too organized; something built or seeded it;
 no provenance, no machinery. STATUS: REJECTED / EVIDENCE INSUFFICIENT.
 
-## Ice-as-fuel rules (thin shell)
+## Core composition + the Millennium Questions (user canon, 2026-09-19)
+COMPOSITION — the core is not normal, especially this old:
+- Fission material: CALIFORNIUM and other transuranics, present in amounts no natural
+  geology should produce. (Real-world anchor: californium-252 is a synthetic actinide,
+  one of the most expensive substances ever made — a neutron source. Here it occurs
+  naturally, which is the anomaly.)
+- Pressure exotics: minerals formed under BILLIONS OF YEARS of core pressure —
+  high-pressure phases with no Earth equivalent.
+- Superheavies: the core holds pieces of the periodic table WE HAVE NOT SYNTHESIZED —
+  elements past 118. Some sit in the island of stability (stable); others are caught
+  mid-decay, decaying "to this and that" in active chains the archive is still logging.
+  The archive's periodic-table exhibit has extra boxes. Some of them blink.
+- Residual heat: the core is STILL WARM in places — hot spots that should have cooled
+  eons ago. (Fission material + ancient formation + pressure. Nobody agrees on the budget.)
+
+THE MILLENNIUM QUESTIONS — the core's DATA poses questions the way the Millennium
+Prize poses math: open problems that everyone — and every AI — is trying to answer.
+Dotty frames the Core section as prize questions, e.g.:
+- "Liquid moving or whatever": the core's interior dynamics pose an unsolved flow
+  problem (the Navier-Stokes flavor — how does matter move in there?).
+- "Was there life — or anything — that they destroyed?": did Mimas, or the core's
+  parent planet, hold life, or a record, or something irreplaceable that the stripping
+  destroyed? UNANSWERED. This is the moral Millennium question, and it is Ren's.
+
+THE DEBATE — later in the story, engineers and scientists argue in dialogue about what
+the core's parent planet was: what TYPE of planet, HOW OLD, what it CONTAINED, under
+what CONDITIONS that ancient world existed, and WHERE. "Was it because it was small,
+or this or that?" Genuine unresolved disagreement, played as a transcript exhibit —
+bluh bluh bluh included. Nobody wins the argument. (Lands in the Core screens / late
+scenes; feeds the declassification ladder's FINAL CANON [PARTIALLY UNREADABLE].)
 4 jobs: (1) fuel feedstock (H2O → H2 + O2 → fusion feedstock/propellant), (2) reaction
 mass (vaporized shell = plume), (3) thermal/working mass, (4) STRUCTURAL MASS — and job 4
 is the horror. Rule: fuel consumed = load-bearing mass removed = Slip accelerates.
