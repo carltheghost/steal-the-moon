@@ -110,6 +110,30 @@ nature builds reactors without asking permission.)
 - Exhibit: a TWO PRESSURES diagram for the Core screens — same feedstock, two
   pressure columns, two different element ladders, converging on new stable exotics.
 
+## THE CORE AS DEVICE — why it is POWER, not price (user canon, 2026-09-19)
+Everything in the core is RICH — high-grade nuclear feedstock, automatically, because
+it is a core: differentiated, concentrated, refined by a planet instead of a lab.
+- The inventory: californium, plutonium and beyond (the transuranics), superheavies
+  past 118, pressure exotics — fissionables and worse, sitting native in the rock.
+- The kicker: the HYDROGEN is right there. The ice the crew has been burning is water;
+  water is hydrogen; hydrogen is fusion fuel. And helium throughout. Fissionables +
+  fusion fuel, co-located, at planetary scale.
+- The capability that matters: the energy can be TARGETED — released in certain ways,
+  directed, shaped. Not a pile of fuel. A directable, scalable nuclear source: massive
+  energy you can aim. Propulsion, power, leverage — civilizational scale.
+This is the motive made concrete, and it is why every earlier line holds:
+- "POWER, energy, the future, and access to the unknown, not commodity pricing."
+- Qiao: "It's not worth anything." / "That's the point." — you cannot price a thing
+  that decides who gets to aim the future.
+- Ren's sabotage is not about saving a rock. It is about denying EVERYONE a
+  planet-scale directed-energy source. "You keep asking who owns the moon. That is
+  the wrong question."
+- Voss's cover (helium-3 mining) was always the small, believable lie told about a
+  thing too big to name.
+RULE (unchanged): this stays at the motive/narrative level. Nuclear events in the
+sims remain abstract impulse levers; no weapon-design mechanics, no yields. The
+story is about who gets to hold the aim, not how the device is built.
+
 ## Buried charges
 Charges placed UNDER the ice at 2 / 7 / 17 / 25 miles deep — subsurface detonations
 coupling directly into shell and core. 2 mi = shallow pop (weak coupling, low risk);
