@@ -134,6 +134,29 @@ RULE (unchanged): this stays at the motive/narrative level. Nuclear events in th
 sims remain abstract impulse levers; no weapon-design mechanics, no yields. The
 story is about who gets to hold the aim, not how the device is built.
 
+## THE CASCADE — have more, do more (user canon, 2026-09-19)
+Not a weapon design. The CASCADE EFFECT: the core breeds fuel as it works.
+- Neutron capture cascades (Pressure One) build heavier nuclei — including new
+  fissionables. Decay chains (Pressure Two) throw off particles that feed further
+  captures. The loop closes: the core makes MORE fuel than the story spends. Have
+  more, do more.
+- This is why the heist math never added up for a mining operation (motive-flip
+  beat 2): the "cargo" was multiplying. They were not hauling fuel; they were
+  hauling a breeder.
+- THE ALGORITHMS ARE FREE: the cascade math in the sim is open, public, in the repo
+  — not secret, not a bad thing. Seeded, deterministic, inspectable. The science is
+  the show; the story sits on a feasible-reality layer. (Thin real anchor: breeder
+  reactors genuinely produce more fissile material than they consume; neutron
+  multiplication is textbook physics. Rates and cross-sections here are fiction,
+  labeled as such.)
+- SIM — "CASCADE VIEW" (Core screens): a cool live flow diagram. Nodes for the
+  exotic feedstocks; animated particle streams for neutron hops under Pressure One
+  building heavier nuclei; branching decay paths under Pressure Two; the feedback
+  loop visibly closing as new fissionables feed back in. Counters: FUEL BRED vs FUEL
+  BURNED, multiplication factor k (fictional). A pressure-mix slider lets the player
+  shift the regime balance and watch the cascade re-tune. Honest labels throughout:
+  SCHEMATIC — NOT TO SCALE, rates fictional.
+
 ## Buried charges
 Charges placed UNDER the ice at 2 / 7 / 17 / 25 miles deep — subsurface detonations
 coupling directly into shell and core. 2 mi = shallow pop (weak coupling, low risk);
