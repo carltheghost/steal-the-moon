@@ -51,6 +51,21 @@ heist, the core, and the chain are fiction.
 - `sim-spec.md` — the 5 three.js simulation features (S1 timeline, S2 flyby sandbox, S3 Δv meter, S4 probability cloud, S5 shepherd mini-game)
 - `billiards-spec.md` — the Saturn Billiards: 12-link chain, shot planner, cascade reports, quest structure
 - `core-spec.md` — the Core Truth: converged canon, buried charges, ice-as-fuel, build checklist
+- `drama-spec.md` — the drama layer: canon inventory, locked lines, placement map, exhibits/sims, ordered build checklist
+- `system-spec.md` — the 540-line converged system spec: one shared `STEAL` state, 24 screens, 7 sim systems
+
+## Canon visuals (`assets/`)
+
+The six canonical visual assets (see `STORY-STATUS.md`):
+
+- `mimas-state-pristine.webp`, `mimas-state-peeling.webp`, `mimas-state-arrival.webp`, `mimas-state-tail.webp` — the four Mimas transformation states
+- `mimas-surface-gaze.webp` — wraps the full 360° moon sphere
+- `mimas-tail-cinematic-flipped.webp` — debris tail streaming AWAY from Earth
+
+## Implementation records (`docs/history/`)
+
+- `masters/` — the five masters agents' proposals across three propose → critique → revise rounds
+- `sessions/` — idea lineage: original story report, tone guide, structure v3, presentation v3, swarm round briefs and results
 
 ## Open-source stack
 
