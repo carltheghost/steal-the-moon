@@ -1,1 +1,97 @@
-{"characters":[{"hidden_objective":"find what was erased","key_lines":["Hi! I'm Dotty! That was leaked footage from 2032. The people in it all remember it differently. Let's ruin some reputations together.","They did not tow the fuel tank. They towed the fuel.","You decide. I'm just a bot with a badge."],"name":"Dotty","objective":"curate the archive; hand contradictions to the reader","pov_grammar":"bureaucratic overlays; worsening redactions; sticky-note marginalia in handwritten marker","role":"AI archivist docent (Docent Over-Transparent Tour-bot Yapper)","running_gags":["HISTORY HAS BEEN CORRECTED #17 → #18 → #19 → CLASSIFIED","redactions worsen until: \"I don't remember writing that.\""]},{"hidden_objective":"ensure nobody can ever use the core","key_lines":["You keep asking who owns the moon. That is the wrong question."],"name":"Ren","objective":"save the moon (+ secretly sabotage the mission: inefficient trajectories, falsified fracture estimates, diverted coolant, buying the moon hours, disabling core-chamber equipment — then leaks the Slip data to make extraction impossible)","pov_grammar":"immaculate log; vault-door official story; zero past-tense verbs","role":"Captain — sympathetic, protecting her crew; the cover-up is false and the story knows it"},{"hidden_objective":"keep the crew alive","key_lines":["It's not worth anything.","That's the point.","You need everything to accomplish everything about the unknown.","We spent twelve years figuring out how to move it. Nobody asked whether we should.","It doesn't need to arrive slow. Fast arrival just means a bigger capture orbit. It only ever needed to fall."],"name":"Qiao","objective":"complete the mission","pov_grammar":"annotated flight recorder; marginalia: \"Don't move this one.\"; 72-hour gap labeled only 'Saturn extraction operations'","role":"Co-pilot / taikonaut — the tragedy inside the comedy"},{"hidden_objective":"controls the story itself (runs her own operation; testimony as leveraged buyout of the truth)","key_lines":["The demo was a rehearsal.","Nobody was flying that moon. A machine stole it and we all took credit.","I don't remember saying that."],"name":"Voss","objective":"control the story","pov_grammar":"redacted silhouette; hearing transcript Q./A. blocks; perjury-warning banner","role":"Defector — testifies against the Compact; was never on the bridge; heard the Slip live on comms and sat on it for two years"}],"disclaimer":"All characters are fictional. No real persons depicted, ever.","entities":[{"key_lines":["Civilization remains intact. For now."],"name":"ARGUS","objective":"eliminate the unsuccessful futures","pov_grammar":"technically polite machine voice; simulation logs","role":"AGI trajectory planner — ran trillions of simulations; re-planned the Jupiter flyby DURING the flyby"}],"project":"Steal the Moon — Characters"}
+{
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)",
+  "characters": [
+    {
+      "hidden_objective": "find what was erased",
+      "key_lines": [
+        "Hi! I'm Dotty! That was leaked footage from 2032. The people in it all remember it differently. Let's ruin some reputations together.",
+        "They did not tow the fuel tank. They towed the fuel.",
+        "You decide. I'm just a bot with a badge.",
+        "It's just math. TNT, and how you release it, and what happens.",
+        "They thought they were stealing a mineral. They were stealing a question.",
+        "ooh, spicy, writing that down"
+      ],
+      "millennium_framing": "Dotty frames the core's mysteries as Millennium-Prize-style prize problems — open problems that everyone, and every AI, is trying to answer",
+      "name": "Dotty",
+      "objective": "curate the archive; hand contradictions to the reader",
+      "pov_grammar": "bureaucratic overlays; worsening redactions; sticky-note marginalia in handwritten marker",
+      "role": "AI archivist docent (Docent Over-Transparent Tour-bot Yapper)",
+      "running_gags": [
+        "HISTORY HAS BEEN CORRECTED #17 → #18 → #19 → CLASSIFIED",
+        "redactions worsen until: \"I don't remember writing that.\""
+      ],
+      "seed_note": "in 2051 the archive holds robot telemetry — some of it recent. Dotty does not say whether anything is still awake down there"
+    },
+    {
+      "hidden_objective": "ensure nobody can ever use the core",
+      "key_lines": [
+        "You keep asking who owns the moon. That is the wrong question."
+      ],
+      "life_question": "\"Was there life — or anything — that they destroyed?\" — did Mimas, or the core's parent planet, hold life, or a record, or something irreplaceable that the stripping destroyed? UNANSWERED. The moral Millennium question, and it is Ren's.",
+      "name": "Ren",
+      "objective": "save the moon (+ secretly sabotage the mission: inefficient trajectories, falsified fracture estimates, diverted coolant, buying the moon hours, disabling core-chamber equipment — then leaks the Slip data to make extraction impossible)",
+      "pov_grammar": "immaculate log; vault-door official story; zero past-tense verbs",
+      "role": "Captain — sympathetic, protecting her crew; the cover-up is false and the story knows it"
+    },
+    {
+      "hidden_objective": "keep the crew alive",
+      "key_lines": [
+        "It's not worth anything.",
+        "That's the point.",
+        "You need everything to accomplish everything about the unknown.",
+        "We spent twelve years figuring out how to move it. Nobody asked whether we should.",
+        "It doesn't need to arrive slow. Fast arrival just means a bigger capture orbit. It only ever needed to fall."
+      ],
+      "name": "Qiao",
+      "objective": "complete the mission",
+      "pov_grammar": "annotated flight recorder; marginalia: \"Don't move this one.\"; 72-hour gap labeled only 'Saturn extraction operations'",
+      "role": "Co-pilot / taikonaut — the tragedy inside the comedy",
+      "twelve_years_conflict": "UNRESOLVED — Phase 0 open item: Qiao's locked line \"We spent twelve years figuring out how to move it\" conflicts with the ~4–5-year active voyage arc and the 2049–2052 billiards chain (drama-spec §6; system-spec §0)"
+    },
+    {
+      "hidden_objective": "controls the story itself (runs her own operation; testimony as leveraged buyout of the truth)",
+      "inserts": {
+        "never_scenes": [
+          7,
+          10
+        ],
+        "note": "Voss plants unsigned inserts; was never on the bridge — she heard the Slip live on comms and sat on it for two years",
+        "scenes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "unsigned_count": 9
+      },
+      "key_lines": [
+        "The demo was a rehearsal.",
+        "Nobody was flying that moon. A machine stole it and we all took credit.",
+        "I don't remember saying that."
+      ],
+      "name": "Voss",
+      "objective": "control the story",
+      "pov_grammar": "redacted silhouette; hearing transcript Q./A. blocks; perjury-warning banner",
+      "role": "Defector — testifies against the Compact; was never on the bridge; heard the Slip live on comms and sat on it for two years"
+    }
+  ],
+  "disclaimer": "All characters are fictional. No real persons depicted, ever.",
+  "entities": [
+    {
+      "key_lines": [
+        "Civilization remains intact. For now.",
+        "ARGUS wasn't searching for the successful route — it was eliminating the unsuccessful ones."
+      ],
+      "name": "ARGUS",
+      "objective": "eliminate the unsuccessful futures",
+      "pov_grammar": "technically polite machine voice; simulation logs",
+      "role": "AGI trajectory planner — ran trillions of simulations; re-planned the Jupiter flyby DURING the flyby"
+    }
+  ],
+  "project": "Steal the Moon — Characters"
+}

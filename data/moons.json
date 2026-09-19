@@ -1,1 +1,260 @@
-{"count_as_of":"2026-08","count_note":"293 confirmed moons as of August 2026 (IAU Minor Planet Center / NASA Science). Date-sensitive; the count keeps growing.","disclaimer":"Real data for the 24 regular moons (rounded, approximate). Irregular moons are condensed by family; most are known only by designation with provisional elements — unknowns marked null explicitly.","irregulars":{"families":[{"group":"Inuit (prograde)","members_known":["Kiviuq","Ijiraq","Paaliaq","Siarnaq","Tarqeq"],"note":"~20+ known; most known only by designation (e.g. S/2004 S 31). Sizes and elements provisional."},{"group":"Gallic (prograde)","members_known":["Albiorix","Bebhionn","Erriapus","Tarvos"],"note":"~10 known; most known only by designation. Sizes and elements provisional."},{"group":"Norse (retrograde)","members_known":["Phoebe","Ymir","Suttungr","Thrymr","Mundilfari","Skathi","Narvi","Hyrrokkin","Bestla","Farbauti"],"note":"Largest group (~200+ of the 269). Phoebe at 213 km is the giant; the rest are a few km across, known mostly by designation. In-story: Phoebe is the forbidden back door / graveyard, not a bumper."}],"total_irregular":269},"project":"Steal the Moon — Saturn's Moons","regular_moons":[{"a_km":133584,"co_orbital":null,"diameter_km":28,"family":"regular","name":"Pan","notes":"ring shepherd (Encke Gap)","period_days":0.575},{"a_km":136505,"co_orbital":null,"diameter_km":8,"family":"regular","name":"Daphnis","notes":"ring shepherd (Keeler Gap)","period_days":0.594},{"a_km":137670,"co_orbital":null,"diameter_km":30,"family":"regular","name":"Atlas","notes":"ring shepherd; flying-saucer profile","period_days":0.602},{"a_km":139380,"co_orbital":null,"diameter_km":136,"family":"regular","name":"Prometheus","notes":"F-ring shepherd","period_days":0.613},{"a_km":141720,"co_orbital":null,"diameter_km":81,"family":"regular","name":"Pandora","notes":"F-ring shepherd","period_days":0.629},{"a_km":151410,"co_orbital":"Janus","diameter_km":116,"family":"regular","name":"Epimetheus","notes":"co-orbital swap with Janus every 4 years","period_days":0.694},{"a_km":151460,"co_orbital":"Epimetheus","diameter_km":179,"family":"regular","name":"Janus","notes":"co-orbital swap with Epimetheus every 4 years","period_days":0.695},{"a_km":167500,"co_orbital":null,"diameter_km":1,"family":"regular","name":"Aegaeon","notes":"G-ring arc source; size approximate","period_days":0.808},{"a_km":185539,"co_orbital":null,"diameter_km":396,"family":"regular","name":"Mimas","notes":"THE VICTIM. Herschel crater 130 km. Shapes the rings via resonance.","period_days":0.942},{"a_km":194440,"co_orbital":null,"diameter_km":3,"family":"regular","name":"Methone","notes":"smooth, rubble-pile; billiards link 03","period_days":1.007},{"a_km":197700,"co_orbital":null,"diameter_km":2,"family":"regular","name":"Anthe","notes":"faint ring arc; billiards link 02 region","period_days":1.037},{"a_km":212280,"co_orbital":null,"diameter_km":5,"family":"regular","name":"Pallene","notes":"faint ring; billiards link 03","period_days":1.142},{"a_km":237948,"co_orbital":null,"diameter_km":504,"family":"regular","name":"Enceladus","notes":"tiger-stripe geysers; subsurface ocean; billiards links 05/06","period_days":1.37},{"a_km":294619,"co_orbital":null,"diameter_km":1062,"family":"regular","name":"Tethys","notes":"Odysseus basin; Ithaca Chasma; billiards link 07","period_days":1.888},{"a_km":294619,"co_orbital":null,"diameter_km":25,"family":"regular","name":"Telesto","notes":"Tethys L4 trojan","period_days":1.888},{"a_km":294619,"co_orbital":null,"diameter_km":21,"family":"regular","name":"Calypso","notes":"Tethys L5 trojan","period_days":1.888},{"a_km":377396,"co_orbital":null,"diameter_km":1123,"family":"regular","name":"Dione","notes":"wispy ice cliffs; billiards link 06","period_days":2.737},{"a_km":377396,"co_orbital":null,"diameter_km":36,"family":"regular","name":"Helene","notes":"Dione L4 trojan","period_days":2.737},{"a_km":377396,"co_orbital":null,"diameter_km":3,"family":"regular","name":"Polydeuces","notes":"Dione L5 trojan; size approximate","period_days":2.737},{"a_km":527108,"co_orbital":null,"diameter_km":1528,"family":"regular","name":"Rhea","notes":"second-largest; billiards link 08 (Long Torch checkpoint)","period_days":4.518},{"a_km":1221870,"co_orbital":null,"diameter_km":5150,"family":"regular","name":"Titan","notes":"dense nitrogen atmosphere; methane cycle; billiards link 09","period_days":15.945},{"a_km":1481010,"co_orbital":null,"diameter_km":270,"family":"regular","name":"Hyperion","notes":"chaotic rotation; 'refuses to behave like a billiard ball'; billiards link 09","period_days":21.277},{"a_km":3560820,"co_orbital":null,"diameter_km":1470,"family":"regular","name":"Iapetus","notes":"yin-yang two-tone; equatorial ridge","period_days":79.322}],"regular_moons_count":24}
+{
+  "count_as_of": "2026-08",
+  "count_note": "293 confirmed moons as of August 2026 (IAU Minor Planet Center / NASA Science). Date-sensitive; the count keeps growing.",
+  "disclaimer": "Real data for the 24 regular moons (rounded, approximate). Irregular moons are condensed by family; most are known only by designation with provisional elements — unknowns marked null explicitly.",
+  "irregulars": {
+    "families": [
+      {
+        "group": "Inuit (prograde)",
+        "members_known": [
+          "Kiviuq",
+          "Ijiraq",
+          "Paaliaq",
+          "Siarnaq",
+          "Tarqeq"
+        ],
+        "note": "~20+ known; most known only by designation (e.g. S/2004 S 31). Sizes and elements provisional."
+      },
+      {
+        "group": "Gallic (prograde)",
+        "members_known": [
+          "Albiorix",
+          "Bebhionn",
+          "Erriapus",
+          "Tarvos"
+        ],
+        "note": "~10 known; most known only by designation. Sizes and elements provisional."
+      },
+      {
+        "group": "Norse (retrograde)",
+        "members_known": [
+          "Phoebe",
+          "Ymir",
+          "Suttungr",
+          "Thrymr",
+          "Mundilfari",
+          "Skathi",
+          "Narvi",
+          "Hyrrokkin",
+          "Bestla",
+          "Farbauti"
+        ],
+        "note": "Largest group (~200+ of the 269). Phoebe at 213 km is the giant; the rest are a few km across, known mostly by designation. In-story: Phoebe is the forbidden back door / graveyard, not a bumper."
+      }
+    ],
+    "total_irregular": 269
+  },
+  "project": "Steal the Moon — Saturn's Moons",
+  "regular_moons": [
+    {
+      "a_km": 133584,
+      "co_orbital": null,
+      "diameter_km": 28,
+      "family": "regular",
+      "name": "Pan",
+      "notes": "ring shepherd (Encke Gap)",
+      "period_days": 0.575
+    },
+    {
+      "a_km": 136505,
+      "co_orbital": null,
+      "diameter_km": 8,
+      "family": "regular",
+      "name": "Daphnis",
+      "notes": "ring shepherd (Keeler Gap)",
+      "period_days": 0.594
+    },
+    {
+      "a_km": 137670,
+      "co_orbital": null,
+      "diameter_km": 30,
+      "family": "regular",
+      "name": "Atlas",
+      "notes": "ring shepherd; flying-saucer profile",
+      "period_days": 0.602
+    },
+    {
+      "a_km": 139380,
+      "co_orbital": null,
+      "diameter_km": 136,
+      "family": "regular",
+      "name": "Prometheus",
+      "notes": "F-ring shepherd",
+      "period_days": 0.613
+    },
+    {
+      "a_km": 141720,
+      "co_orbital": null,
+      "diameter_km": 81,
+      "family": "regular",
+      "name": "Pandora",
+      "notes": "F-ring shepherd",
+      "period_days": 0.629
+    },
+    {
+      "a_km": 151410,
+      "co_orbital": "Janus",
+      "diameter_km": 116,
+      "family": "regular",
+      "name": "Epimetheus",
+      "notes": "co-orbital swap with Janus every 4 years",
+      "period_days": 0.694
+    },
+    {
+      "a_km": 151460,
+      "co_orbital": "Epimetheus",
+      "diameter_km": 179,
+      "family": "regular",
+      "name": "Janus",
+      "notes": "co-orbital swap with Epimetheus every 4 years",
+      "period_days": 0.695
+    },
+    {
+      "a_km": 167500,
+      "co_orbital": null,
+      "diameter_km": 1,
+      "family": "regular",
+      "name": "Aegaeon",
+      "notes": "G-ring arc source; size approximate",
+      "period_days": 0.808
+    },
+    {
+      "a_km": 185539,
+      "co_orbital": null,
+      "diameter_km": 396,
+      "family": "regular",
+      "name": "Mimas",
+      "notes": "THE VICTIM. Herschel crater 130 km. Shapes the rings via resonance.",
+      "period_days": 0.942
+    },
+    {
+      "a_km": 194440,
+      "co_orbital": null,
+      "diameter_km": 3,
+      "family": "regular",
+      "name": "Methone",
+      "notes": "smooth, rubble-pile; billiards link 03",
+      "period_days": 1.007
+    },
+    {
+      "a_km": 197700,
+      "co_orbital": null,
+      "diameter_km": 2,
+      "family": "regular",
+      "name": "Anthe",
+      "notes": "faint ring arc; billiards link 02 region",
+      "period_days": 1.037
+    },
+    {
+      "a_km": 212280,
+      "co_orbital": null,
+      "diameter_km": 5,
+      "family": "regular",
+      "name": "Pallene",
+      "notes": "faint ring; billiards link 03",
+      "period_days": 1.142
+    },
+    {
+      "a_km": 237948,
+      "co_orbital": null,
+      "diameter_km": 504,
+      "family": "regular",
+      "name": "Enceladus",
+      "notes": "tiger-stripe geysers; subsurface ocean; billiards links 05/06",
+      "period_days": 1.37
+    },
+    {
+      "a_km": 294619,
+      "co_orbital": null,
+      "diameter_km": 1062,
+      "family": "regular",
+      "name": "Tethys",
+      "notes": "Odysseus basin; Ithaca Chasma; billiards link 07",
+      "period_days": 1.888
+    },
+    {
+      "a_km": 294619,
+      "co_orbital": null,
+      "diameter_km": 25,
+      "family": "regular",
+      "name": "Telesto",
+      "notes": "Tethys L4 trojan",
+      "period_days": 1.888
+    },
+    {
+      "a_km": 294619,
+      "co_orbital": null,
+      "diameter_km": 21,
+      "family": "regular",
+      "name": "Calypso",
+      "notes": "Tethys L5 trojan",
+      "period_days": 1.888
+    },
+    {
+      "a_km": 377396,
+      "co_orbital": null,
+      "diameter_km": 1123,
+      "family": "regular",
+      "name": "Dione",
+      "notes": "wispy ice cliffs; billiards link 06",
+      "period_days": 2.737
+    },
+    {
+      "a_km": 377396,
+      "co_orbital": null,
+      "diameter_km": 36,
+      "family": "regular",
+      "name": "Helene",
+      "notes": "Dione L4 trojan",
+      "period_days": 2.737
+    },
+    {
+      "a_km": 377396,
+      "co_orbital": null,
+      "diameter_km": 3,
+      "family": "regular",
+      "name": "Polydeuces",
+      "notes": "Dione L5 trojan; size approximate",
+      "period_days": 2.737
+    },
+    {
+      "a_km": 527108,
+      "co_orbital": null,
+      "diameter_km": 1528,
+      "family": "regular",
+      "name": "Rhea",
+      "notes": "second-largest; billiards link 08 (Long Torch checkpoint)",
+      "period_days": 4.518
+    },
+    {
+      "a_km": 1221870,
+      "co_orbital": null,
+      "diameter_km": 5150,
+      "family": "regular",
+      "name": "Titan",
+      "notes": "dense nitrogen atmosphere; methane cycle; billiards link 09",
+      "period_days": 15.945
+    },
+    {
+      "a_km": 1481010,
+      "co_orbital": null,
+      "diameter_km": 270,
+      "family": "regular",
+      "name": "Hyperion",
+      "notes": "chaotic rotation; 'refuses to behave like a billiard ball'; billiards link 09",
+      "period_days": 21.277
+    },
+    {
+      "a_km": 3560820,
+      "co_orbital": null,
+      "diameter_km": 1470,
+      "family": "regular",
+      "name": "Iapetus",
+      "notes": "yin-yang two-tone; equatorial ridge",
+      "period_days": 79.322
+    }
+  ],
+  "regular_moons_count": 24,
+  "catalog_status": "INCOMPLETE — full 293-moon catalog pending real JPL data assembly (Phase 0 open item)",
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)"
+}

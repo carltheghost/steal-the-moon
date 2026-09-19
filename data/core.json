@@ -1,1 +1,239 @@
-{"core":{"data_aspect":"isotopic ratios, crystal structures, lattice defects and phase boundaries encode patterns geology cannot explain","diameter_mi":159,"exposed_appearance":"huge massifs with the luster of gold or silver — the cover story written on the surface","nature":"heterogeneous exotic minerals, naturally formed, zoned and varied: different exotic minerals on different sides and regions","origin_note":"Natural origin, but with an information structure no known process should produce","redacted_alternatives":[{"id":"NATURAL_REACTOR","status":"REJECTED / EVIDENCE INSUFFICIENT","summary":"Oklo-like natural fission system scaled to impossibility; explains the energy readings, not the zoned information structure"},{"id":"ENGINEERED_ARTIFACT","status":"REJECTED / EVIDENCE INSUFFICIENT","summary":"The zonation is too organized; something built or seeded it; no provenance, no machinery"}],"zones":[{"id":"ZONE_A","name":"AURUM VEIN","properties":"metallic massifs; gold/silver luster; the visible lie","reading":"anomalous density"},{"id":"ZONE_B","name":"ISOTOPIC IMPOSSIBILITY","properties":"isotopic ratios no known process produces","reading":"information structure, not geology"},{"id":"ZONE_C","name":"LATTICE DEFECT FIELD","properties":"crystal lattice defects in non-random patterns","reading":"\"the question\" — patterns behave like a message"},{"id":"ZONE_D","name":"DENSE NODE","properties":"density spike inconsistent with surrounding mineralogy","reading":"gravimetric anomaly"},{"id":"ZONE_E","name":"PHASE BOUNDARY SHATTER","properties":"exotic phase boundaries; confinement-sensitive","reading":"disturbing it may change its state"}]},"herschel_slip":{"chain":["ICE REMOVED → LOAD REDISTRIBUTION → TIDAL STRESS → HERSCHEL CRACK PROPAGATION → DECOMPRESSION → CORE CONFINEMENT CHANGES → MODEL CONFIDENCE FALLS"],"crack_origin":"Herschel crater rim (130 km crater)","description":"Fracture propagating from Herschel's rim deep into the shell; with the shell stripped, it threatens CORE EXPOSURE","official_story":"\"expected settling\"","tagline":"They aren't drilling through Mimas. They're peeling it."},"ice_as_fuel":{"jobs":["fuel feedstock (H2O → H2 + O2 → fusion feedstock/propellant)","reaction mass (vaporized shell = plume)","thermal/working mass","STRUCTURAL MASS — fuel consumed = load-bearing mass removed = Slip accelerates"],"rule":"BURNING ICE MAKES THE SHIP FASTER WHILE MAKING THE MOON THINNER","shell_debt":"delayed consequences — damage worse than a health bar"},"impulse_model":{"buried_charges":[{"coupling":"weak","depth_mi":2,"fracture_risk":"low","role":"shallow pop — fracture and strip the shell"},{"coupling":"solid","depth_mi":7,"fracture_risk":"moderate","role":"mid-shell — fracture and strip the shell"},{"coupling":"strong","depth_mi":17,"fracture_risk":"high","role":"deep shell — strong coupling, high fracture risk"},{"coupling":"maximum","depth_mi":25,"fracture_risk":"extreme","role":"past halfway to the core — maximum coupling, knocking on the core's door"}],"depth_rule":"depth = coupling vs fracture risk","governing_rule":"THE EXPLOSION IS NEVER THE EVENT. THE ORBIT AFTER THE EXPLOSION IS THE EVENT."},"project":"Steal the Moon — Core Truth","torch":{"burn_table":[{"burn":"Conservative","ice_delta":-4,"progress_delta":5,"slip_delta":1},{"burn":"Hard","ice_delta":-9,"progress_delta":14,"slip_delta":4},{"burn":"Emergency","ice_delta":-15,"progress_delta":25,"slip_delta":9}],"reserve_kms":35.0}}
+{
+  "as_device": {
+    "motive_lines": [
+      "POWER, energy, the future, and access to the unknown, not commodity pricing.",
+      "Qiao: \"It's not worth anything.\" / \"That's the point.\" — you cannot price a thing that decides who gets to aim the future.",
+      "Ren's sabotage is not about saving a rock. It is about denying EVERYONE a planet-scale directed-energy source.",
+      "Voss's cover (helium-3 mining) was always the small, believable lie told about a thing too big to name."
+    ],
+    "rule": "MOTIVE/NARRATIVE LEVEL ONLY: sims keep nuclear events as abstract impulse levers — no weapon-design mechanics, no yields. The story is about who holds the aim, not how the device is built.",
+    "summary": "POWER, not price: everything in the core is RICH — high-grade nuclear feedstock automatically, because it is a core: differentiated, concentrated, refined by a planet instead of a lab. The inventory: californium, plutonium and beyond, superheavies past 118, pressure exotics. The kicker: the HYDROGEN is right there — the ice the crew has been burning is water; water is hydrogen; hydrogen is fusion fuel. The energy can be TARGETED — released in certain ways, directed, aimed. Not a pile of fuel: a directable, scalable nuclear source — massive energy you can aim."
+  },
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)",
+  "cascade": {
+    "algorithms": "OPEN / FREE: the cascade math in the sim is open, public, in the repo — seeded, deterministic, inspectable. Rates and cross-sections fictional, labeled.",
+    "exhibit": "CASCADE VIEW (Core screens C-1/C-2): live flow diagram — exotic feedstock nodes, animated neutron-hop streams (Pressure One), branching decay paths (Pressure Two), feedback loop visibly closing; counters FUEL BRED vs FUEL BURNED, multiplication factor k (fictional); pressure-mix slider re-tunes the cascade. Labels: SCHEMATIC — NOT TO SCALE.",
+    "heist_math": "this is why the heist math never added up for a mining operation (motive-flip beat II): the \"cargo\" was multiplying — they were hauling a breeder, not cargo",
+    "mechanism": "the core breeds fuel as it works: neutron capture cascades (Pressure One) build heavier nuclei — including new fissionables; decay chains (Pressure Two) throw off particles that feed further captures; the loop closes: the core makes MORE fuel than the story spends"
+  },
+  "core": {
+    "data_aspect": "isotopic ratios, crystal structures, lattice defects and phase boundaries encode patterns geology cannot explain",
+    "diameter_mi": 159,
+    "exposed_appearance": "huge massifs with the luster of gold or silver — the cover story written on the surface",
+    "nature": "heterogeneous exotic minerals, naturally formed, zoned and varied: different exotic minerals on different sides and regions",
+    "origin_note": "Natural origin, but with an information structure no known process should produce",
+    "redacted_alternatives": [
+      {
+        "id": "NATURAL_REACTOR",
+        "status": "REJECTED / EVIDENCE INSUFFICIENT",
+        "summary": "Oklo-like natural fission system scaled to impossibility; explains the energy readings, not the zoned information structure"
+      },
+      {
+        "id": "ENGINEERED_ARTIFACT",
+        "status": "REJECTED / EVIDENCE INSUFFICIENT",
+        "summary": "The zonation is too organized; something built or seeded it; no provenance, no machinery"
+      }
+    ],
+    "zones": [
+      {
+        "id": "ZONE_A",
+        "name": "AURUM VEIN",
+        "properties": "metallic massifs; gold/silver luster; the visible lie",
+        "reading": "anomalous density"
+      },
+      {
+        "id": "ZONE_B",
+        "name": "ISOTOPIC IMPOSSIBILITY",
+        "properties": "isotopic ratios no known process produces",
+        "reading": "information structure, not geology"
+      },
+      {
+        "id": "ZONE_C",
+        "name": "LATTICE DEFECT FIELD",
+        "properties": "crystal lattice defects in non-random patterns",
+        "reading": "\"the question\" — patterns behave like a message"
+      },
+      {
+        "id": "ZONE_D",
+        "name": "DENSE NODE",
+        "properties": "density spike inconsistent with surrounding mineralogy",
+        "reading": "gravimetric anomaly"
+      },
+      {
+        "id": "ZONE_E",
+        "name": "PHASE BOUNDARY SHATTER",
+        "properties": "exotic phase boundaries; confinement-sensitive",
+        "reading": "disturbing it may change its state"
+      }
+    ]
+  },
+  "debate": {
+    "axis_1": {
+      "name": "THE CHOICE",
+      "question": "did they pick Mimas because it was SMALL and EASY — the convenient moon — or because they already KNEW what the core held? Foreknowledge vs convenience. If they knew, the helium-3 cover was constructed from day one (Voss's job) and the \"wrong in four ways\" core was the target all along. Dotty never confirms."
+    },
+    "axis_2": {
+      "name": "THE PARENT",
+      "question": "later, engineers and scientists argue: what was the core's parent planet — what TYPE, HOW OLD, what it CONTAINED, under what CONDITIONS that ancient world existed, and WHERE. Genuine unresolved disagreement, played as a transcript exhibit. Nobody wins."
+    },
+    "resolution": "never resolved; feeds the declassification ladder's FINAL CANON [PARTIALLY UNREADABLE]",
+    "threading": [
+      "beginning (planning-room debate fragment)",
+      "middle (mid-heist crew fights as anomalies surface)",
+      "past/memory (archive fragments)",
+      "late (full transcript in the Core screens)"
+    ]
+  },
+  "herschel_slip": {
+    "chain": [
+      "ICE REMOVED → LOAD REDISTRIBUTION → TIDAL STRESS → HERSCHEL CRACK PROPAGATION → DECOMPRESSION → CORE CONFINEMENT CHANGES → MODEL CONFIDENCE FALLS"
+    ],
+    "crack_origin": "Herschel crater rim (130 km crater)",
+    "description": "Fracture propagating from Herschel's rim deep into the shell; with the shell stripped, it threatens CORE EXPOSURE",
+    "official_story": "\"expected settling\"",
+    "tagline": "They aren't drilling through Mimas. They're peeling it."
+  },
+  "ice_as_fuel": {
+    "jobs": [
+      "fuel feedstock (H2O → H2 + O2 → fusion feedstock/propellant)",
+      "reaction mass (vaporized shell = plume)",
+      "thermal/working mass",
+      "STRUCTURAL MASS — fuel consumed = load-bearing mass removed = Slip accelerates"
+    ],
+    "rule": "BURNING ICE MAKES THE SHIP FASTER WHILE MAKING THE MOON THINNER",
+    "shell_debt": "delayed consequences — damage worse than a health bar",
+    "tagline": "The stolen moon is consuming itself to pay for its own escape."
+  },
+  "impulse_model": {
+    "buried_charges": [
+      {
+        "coupling": "weak",
+        "depth_mi": 2,
+        "fracture_risk": "low",
+        "role": "shallow pop — fracture and strip the shell"
+      },
+      {
+        "coupling": "solid",
+        "depth_mi": 7,
+        "fracture_risk": "moderate",
+        "role": "mid-shell — fracture and strip the shell"
+      },
+      {
+        "coupling": "strong",
+        "depth_mi": 17,
+        "fracture_risk": "high",
+        "role": "deep shell — strong coupling, high fracture risk"
+      },
+      {
+        "coupling": "maximum",
+        "depth_mi": 25,
+        "fracture_risk": "extreme",
+        "role": "past halfway to the core — maximum coupling, knocking on the core's door"
+      }
+    ],
+    "depth_rule": "depth = coupling vs fracture risk",
+    "governing_rule": "THE EXPLOSION IS NEVER THE EVENT. THE ORBIT AFTER THE EXPLOSION IS THE EVENT."
+  },
+  "millennium_questions": {
+    "framed_by": "Dotty",
+    "framing": "the core's DATA poses questions the way the Millennium Prize poses math — open problems everyone, and every AI, is trying to answer",
+    "questions": [
+      {
+        "id": "flow",
+        "question": "\"Liquid moving or whatever\" — the core's interior dynamics pose an unsolved flow problem (Navier-Stokes flavor: how does matter move in there?)"
+      },
+      {
+        "id": "transmutation_network",
+        "question": "\"Map the transmutation network.\" Nobody has. The archive has partial decay/capture logs; Dotty marks the rest [UNOBSERVED]."
+      },
+      {
+        "id": "life",
+        "question": "\"Was there life — or anything — that they destroyed?\" — did Mimas, or the core's parent planet, hold life, or a record, or something irreplaceable that the stripping destroyed? UNANSWERED. The moral Millennium question — Ren's."
+      }
+    ]
+  },
+  "project": "Steal the Moon — Core Truth",
+  "scale": {
+    "core_comparison": "nothing compared to a californium release from the core's inventory — the archive's models for that scale don't fit on the same chart; the exhibit shows the Tsar bar, then the axis breaks",
+    "note": "fictional quantities, labeled as such",
+    "real_anchor": "Tsar Bomba (~50 megatons, 1961) — the largest nuclear detonation in human history"
+  },
+  "seed": {
+    "exhibit": "a telemetry feed with timestamps that should have stopped — and didn't",
+    "note": "the crew does not stay — they SEED the moon: robots placed deep under the ice, autonomous, built to live off the moon itself",
+    "ren_axis": "the robots are Ren's sabotage axis — the hands she has to stay ahead of, or turn",
+    "self_sustaining": "they do not bring fuel; they do not NEED fuel — everything is there: fissionables, hydrogen ice, the cascade breeding more as it burns; the moon becomes a self-sustaining machine: fuel, reactor, and crew in one body",
+    "telemetry_2051": "in 2051 the archive still holds robot telemetry — some of it recent. Dotty does not say whether anything is still awake down there"
+  },
+  "sim_honesty_line": {
+    "line": "It's just math. TNT, and how you release it, and what happens.",
+    "rule": "the sims model energy abstractly — quantities, release profiles, consequences — never mechanisms",
+    "voice": "Dotty (sim intro)"
+  },
+  "the_quote": {
+    "line": "We didn't crack a moon tonight. We cracked the century.",
+    "moment": "at the first big energy release — the moment the telemetry confirms the deep charge lit, the room goes quiet, and one of the scientists says the history-books line",
+    "status": "DRAFT — refine in build"
+  },
+  "torch": {
+    "burn_table": [
+      {
+        "burn": "Conservative",
+        "ice_delta": -4,
+        "progress_delta": 5,
+        "slip_delta": 1
+      },
+      {
+        "burn": "Hard",
+        "ice_delta": -9,
+        "progress_delta": 14,
+        "slip_delta": 4
+      },
+      {
+        "burn": "Emergency",
+        "ice_delta": -15,
+        "progress_delta": 25,
+        "slip_delta": 9
+      }
+    ],
+    "reserve_kms": 35.0
+  },
+  "two_pressures": {
+    "convergence": "both regimes end the same way: they forge NEW STABLE exotic minerals with no Earth equivalent — exotic in, exotic out; stable forms of matter we have never seen",
+    "exhibit": "TWO PRESSURES diagram (Core screens): same feedstock in, two pressure columns, two different element ladders, converging on new stable exotics",
+    "pressure_one": {
+      "mechanism": "neutron capture cascades hop mineral to mineral, building heavier and heavier nuclei — natural synthesis, live; this is where the superheavies past 118 get built and where the island-of-stability pockets get fed",
+      "regime": "deep, crushing"
+    },
+    "pressure_two": {
+      "mechanism": "the same exotics behave differently — particles escape, protons get shoved out (proton emission), decay chains run down other paths; what Pressure One builds, Pressure Two can unbuild",
+      "regime": "different, lesser"
+    },
+    "summary": "the core is not a dead rock with old elements — it is still COOKING; a planet-scale natural reactor with pressure-gated transmutation"
+  },
+  "world_watches": {
+    "actor_response": "the country (or whoever) that pulled it off has to answer the world while the evidence burns across the sky — Voss's cover story under maximum pressure",
+    "arc": "~4–5 years; dramatic compression allowed where the story needs speed (\"fast will be good\")",
+    "damage_question": "OPEN — what does the debris do? A meteor uptick on Earth? satellite losses? Dotty marks casualty figures [DISPUTED]. See chain.json tail / TAIL FOOTPRINT sim.",
+    "debate": "nations watch, argue, grandstand — months of it: who authorized this? who owns a moon? was there life in what they stripped away? protests, summits, resolutions; the moon keeps coming",
+    "tail": "the voyage strips megatons of debris into a cometary tail trailing behind; as the moon travels inward the Sun warms the tail — volatiles sublimate, it brightens and spreads; a stolen moon with a glowing tail, visible in telescopes, then in the sky, for MONTHS — the world cannot look away"
+  },
+  "wrong_in_four_ways": [
+    {
+      "name": "CALIFORNIUM + TRANSURANICS",
+      "note": "fission material sitting there NATURALLY: californium plus the other transuranics — neptunium, plutonium, americium (the stuff in smoke detectors), curium, berkelium, einsteinium, fermium, on up. On Earth we have only ever made these in labs and reactors; here they are just sitting in the rock. Real-world anchor: californium-252 is synthetic — one of the most expensive substances ever made, a neutron source; native occurrence is the anomaly."
+    },
+    {
+      "name": "PRESSURE EXOTICS",
+      "note": "minerals formed under BILLIONS OF YEARS of core pressure — high-pressure phases with no Earth equivalent"
+    },
+    {
+      "name": "SUPERHEAVIES PAST 118",
+      "note": "pieces of the periodic table WE HAVE NOT SYNTHESIZED — elements past 118. Some sit in the island of stability (stable); others are caught mid-decay, decaying 'to this and that' in active chains the archive is still logging. The archive's periodic-table exhibit has extra boxes. Some of them blink."
+    },
+    {
+      "name": "RESIDUAL HEAT",
+      "note": "the core is STILL WARM in places — hot spots that should have cooled eons ago. Nobody agrees on the heat budget"
+    }
+  ]
+}

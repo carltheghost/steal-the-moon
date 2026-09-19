@@ -1,1 +1,87 @@
-{"arrival":{"description":"A METAL CORE wearing a ~20-mile-deep global ocean, with exposed core-mountains breaching the waterline. They almost cleared the whole moon getting it here.","diameter_mi":199,"exposed_massifs":"metallic luster — like gold or silver. The perfect lie made physical: everyone assumes a gold rush; the truth is POWER, not price.","ocean_depth_mi":20},"canon_date":"2026-09-19","departure":{"core_diameter_mi":159,"description":"246-mile moon: 159-mile heterogeneous exotic-mineral core wrapped in ~43 miles of ice.","diameter_km":396,"diameter_mi":246,"ice_shell_mi":43},"disclaimer":"Real Saturn. Fictional crime. All characters fictional; no real persons depicted.","framing":"THE MIMAS INQUIRY: A Declassified History of the Saturn Heist","governing_truth":"The core is a MINERAL OF POWER: not about price, not about gold — energy, the future, \"the thing you need to accomplish everything about the unknown. Whoever holds the core holds the next century.\"","moon":{"name":"Mimas","nasa_diameter_km":396,"nasa_diameter_mi":246,"note":"\"246 miles? That's nothing. We can move that.\""},"project":"Steal the Moon","tagline":"They thought they were stealing a mineral. They were stealing a question.","voyage":{"diameter_change":"loses diameter AND mass — ice stripped and burned as fusion fuel","duration_days":4200,"duration_years":11.5,"mechanism":"mass drivers throw Mimas's own ice overboard as reaction mass; the moon burns pieces of itself to travel","parking_orbit_km":70000,"parking_orbit_type":"distant retrograde orbit","route":["Saturn departure","Titan assist","Rhea assist","Dione assist","Jupiter flyby","Earth encounter","capture perigee burn"],"torch_reserve_kms":35.0}}
+{
+  "arrival": {
+    "description": "A METAL CORE wearing a ~20-mile-deep global ocean, with exposed core-mountains breaching the waterline. They almost cleared the whole moon getting it here.",
+    "diameter_mi": 199,
+    "diameter_status": "PROVISIONAL",
+    "exposed_massifs": "metallic luster — like gold or silver. The perfect lie made physical: everyone assumes a gold rush; the truth is POWER, not price.",
+    "ocean_depth_mi": 20,
+    "status": "awaiting user decision",
+    "status_source": "arrival diameter given as ~199 mi / ≈199 in core-spec (Moon geometry) and system-spec §0 — unconfirmed final per task rule"
+  },
+  "canon_date": "2026-09-19",
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)",
+  "chronology": {
+    "chronology_status": "UNRESOLVED — Phase 0 open item",
+    "claims": [
+      {
+        "dating": "2051 documentary framing",
+        "note": "present-day (2051) Dotty explainer; RECORD temporal layer; 19 years after the heist",
+        "source": "system-spec §0; scenes temporal_layers (RECORD)"
+      },
+      {
+        "dating": "2049–2052 billiards chain",
+        "note": "12-link cascade 2049-06-17 → 2052-04-12; proposed configurations NOT validated against JPL Horizons — do not present planning dates as real reproducible alignments",
+        "source": "billiards-spec (canonical chain); system-spec §0"
+      },
+      {
+        "dating": "4,200-day / ~11.5-year mission",
+        "note": "mission clock cap driving the S1 timeline and S2 band shrink",
+        "source": "sim-spec §Canonical numbers; system-spec §1 (STEAL.time.missionCapDays)"
+      },
+      {
+        "dating": "Qiao's \"twelve years\"",
+        "note": "\"We spent twelve years figuring out how to move it.\" Locked line; conflicts with the ~4–5-year active arc",
+        "source": "drama-spec §6; billiards-spec (quest VII MIMAS)"
+      },
+      {
+        "dating": "~4–5-year active arc",
+        "note": "the world-watches arc (tail, debate, actor response) runs about 4–5 years; dramatic compression allowed (\"fast will be good\")",
+        "source": "core-spec §THE WORLD WATCHES"
+      }
+    ],
+    "note": "The dating claims above are recorded as co-existing claims. Do NOT silently resolve (drama-spec §6; system-spec §0, §13 item 0.1)."
+  },
+  "departure": {
+    "buried_charges_mi": [
+      2,
+      7,
+      17,
+      25
+    ],
+    "buried_charges_source": "core-spec §Moon geometry + §Buried charges (user canon 2026-09-19)",
+    "core_diameter_mi": 159,
+    "description": "246-mile moon: 159-mile heterogeneous exotic-mineral core wrapped in ~43 miles of ice.",
+    "diameter_km": 396,
+    "diameter_mi": 246,
+    "ice_shell_mi": 43
+  },
+  "disclaimer": "Real Saturn. Fictional crime. All characters fictional; no real persons depicted.",
+  "framing": "THE MIMAS INQUIRY: A Declassified History of the Saturn Heist",
+  "governing_truth": "The core is a MINERAL OF POWER: not about price, not about gold — energy, the future, \"the thing you need to accomplish everything about the unknown. Whoever holds the core holds the next century.\"",
+  "moon": {
+    "name": "Mimas",
+    "nasa_diameter_km": 396,
+    "nasa_diameter_mi": 246,
+    "note": "\"246 miles? That's nothing. We can move that.\""
+  },
+  "project": "Steal the Moon",
+  "tagline": "They thought they were stealing a mineral. They were stealing a question.",
+  "voyage": {
+    "diameter_change": "loses diameter AND mass — ice stripped and burned as fusion fuel",
+    "duration_days": 4200,
+    "duration_years": 11.5,
+    "mechanism": "mass drivers throw Mimas's own ice overboard as reaction mass; the moon burns pieces of itself to travel",
+    "parking_orbit_km": 70000,
+    "parking_orbit_type": "distant retrograde orbit",
+    "route": [
+      "Saturn departure",
+      "Titan assist",
+      "Rhea assist",
+      "Dione assist",
+      "Jupiter flyby",
+      "Earth encounter",
+      "capture perigee burn"
+    ],
+    "torch_reserve_kms": 35.0
+  }
+}

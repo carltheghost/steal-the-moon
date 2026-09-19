@@ -1,1 +1,117 @@
-{"palette":{"alarm_red":"#8E3434","amber":"#C69A45","blue_gray":"#667681","cyan":"#71A9AD","ivory":"#E9E2D2","near_black":"#202321"},"project":"Steal the Moon — Exhibit Stills","render_notes":"One persistent three.js/WebGL2 scene; DOM/CSS owns archival UI. PHYSICS vs DISPLAY space (log-compressed), always labeled 'SCHEMATIC — NOT TO SCALE'. Desktop: up to 5,000 ghost trajectories; mobile: 500–1,000; static/SVG fallbacks; reduced-motion support. Truth grammar: solid=observed / dashed=predicted / dotted=hypothetical / double-line=disputed.","stills":[{"exhibit":"EXHIBIT 1A","sim":"S1","subject":"master trajectory — Saturn → Jupiter → Earth, the one thread through the maze","title":"THE LONG WAY HOME"},{"exhibit":"FIG. 02","sim":"S1","subject":"Mimas plate — 246-mile moon, Herschel crater, departure state","title":"THE VICTIM"},{"exhibit":"FIG. 08C","sim":"S2","subject":"Jupiter assist close-up — aim point, response surface, ARCHIVE (cyan) vs YOURS (amber)","title":"THE FLYBY TWEAK"},{"exhibit":"EXHIBIT 13D","sim":"S2","subject":"sandbox — the shot planner: vector, tier, timing, confidence","title":"LINE UP THE SHOT"},{"exhibit":"FUEL ACCOUNTING GAUGE","sim":"S3","subject":"TORCH ΔV ACCOUNT 28.7/35.0 km/s; PROJECTED EARTH RESERVE; NOMINAL→UNCOMFORTABLE→OH→OH NO→EXHAUSTED","title":"THE DELTA-V METER"},{"exhibit":"ATTACHMENT 42","sim":"S4","subject":"probability cloud — 5,000 ghost trajectories converging on the one chosen path; rejection tags on hover","title":"THREE TRILLION DOORS"},{"exhibit":"FIG. 19","sim":"S5","subject":"shepherd fleet — captured asteroids in formation as gravity tractors; AUTHORIZED CORRIDOR band","title":"THE SHEPHERDS"},{"exhibit":"FIG. 19B","sim":"S5","subject":"before/after — the corridor held (or didn't)","title":"THE NUDGE"},{"exhibit":"EXHIBIT 27","sim":"S1+S3","subject":"capture — perigee burn; fast arrival, wider capture orbit","title":"EARTH, SOMEHOW"},{"exhibit":"EXHIBIT 31","sim":"S1","subject":"Earth catch-up strip — the long fall compressed","title":"THE LONG FALL"},{"exhibit":"EXHIBIT 51","sim":"S1+S5","subject":"Herschel Slip fracture map — the crack from Herschel's rim; 'THE RING IS WRONG' resonance plate","title":"THE SLIP"}]}
+{
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)",
+  "canon_visual_set": {
+    "assets": [
+      {
+        "file": "assets/mimas-state-pristine.webp",
+        "provenance": "media-generation pipeline output (agent/Grok-generated; see sibling sidecar media-generation-mimas-pristine-1789796803.json)",
+        "role": "departure state — 246-mile moon, pre-strip"
+      },
+      {
+        "file": "assets/mimas-state-peeling.webp",
+        "provenance": "media-generation pipeline output (agent/Grok-generated; see sibling sidecar media-generation-mimas-peeling-1789796807.json)",
+        "role": "mid-voyage peel state — shell stripping underway"
+      },
+      {
+        "file": "assets/mimas-state-arrival.webp",
+        "provenance": "media-generation pipeline output (agent/Grok-generated; see sibling sidecar media-generation-mimas-arrival-1789796806.json)",
+        "role": "arrival state — ~199-mile metal core wearing a ~20-mile global ocean, exposed massifs breaching the waterline"
+      },
+      {
+        "file": "assets/mimas-state-tail.webp",
+        "provenance": "media-generation pipeline output (agent/Grok-generated; see sibling sidecar media-generation-mimas-tail-1789796814.json)",
+        "role": "debris-tail state — cometary tail streaming off the moon"
+      },
+      {
+        "file": "assets/mimas-surface-gaze.webp",
+        "provenance": "byte-identical copy of media-generation-mimas-pristine; promoted to canon by the user's visual-canon decision (user's own material per project visual-canon record, 2026-09-19)",
+        "role": "canon sphere wrap — the FULL 360° moon texture wrapping the whole sphere: all terrain, valleys, and fracture networks"
+      },
+      {
+        "file": "assets/mimas-tail-cinematic-flipped.webp",
+        "provenance": "horizontally flipped edit of tail material; canon composition per the user's visual-canon decision (user's own material per project visual-canon record, 2026-09-19)",
+        "role": "canon debris-tail cinematic — tail streams AWAY from Earth; shown in both debris and world-response views"
+      }
+    ],
+    "location": "assets/",
+    "note": "the six canon visual assets. Per provenance: pixels were generated via the media-generation pipeline (agent/Grok-generated); the two mimas-*.*webp files are the user-designated canon selections (composition: full-sphere wrap; tail-away orientation). They sit alongside, not replacing, the planned exhibit stills below."
+  },
+  "palette": {
+    "alarm_red": "#8E3434",
+    "amber": "#C69A45",
+    "blue_gray": "#667681",
+    "cyan": "#71A9AD",
+    "ivory": "#E9E2D2",
+    "near_black": "#202321"
+  },
+  "project": "Steal the Moon — Exhibit Stills",
+  "render_notes": "One persistent three.js/WebGL2 scene; DOM/CSS owns archival UI. PHYSICS vs DISPLAY space (log-compressed), always labeled 'SCHEMATIC — NOT TO SCALE'. Desktop: up to 5,000 ghost trajectories; mobile: 500–1,000; static/SVG fallbacks; reduced-motion support. Truth grammar: solid=observed / dashed=predicted / dotted=hypothetical / double-line=disputed.",
+  "stills": [
+    {
+      "exhibit": "EXHIBIT 1A",
+      "sim": "S1",
+      "subject": "master trajectory — Saturn → Jupiter → Earth, the one thread through the maze",
+      "title": "THE LONG WAY HOME"
+    },
+    {
+      "exhibit": "FIG. 02",
+      "sim": "S1",
+      "subject": "Mimas plate — 246-mile moon, Herschel crater, departure state",
+      "title": "THE VICTIM"
+    },
+    {
+      "exhibit": "FIG. 08C",
+      "sim": "S2",
+      "subject": "Jupiter assist close-up — aim point, response surface, ARCHIVE (cyan) vs YOURS (amber)",
+      "title": "THE FLYBY TWEAK"
+    },
+    {
+      "exhibit": "EXHIBIT 13D",
+      "sim": "S2",
+      "subject": "sandbox — the shot planner: vector, tier, timing, confidence",
+      "title": "LINE UP THE SHOT"
+    },
+    {
+      "exhibit": "FUEL ACCOUNTING GAUGE",
+      "sim": "S3",
+      "subject": "TORCH ΔV ACCOUNT 28.7/35.0 km/s; PROJECTED EARTH RESERVE; NOMINAL→UNCOMFORTABLE→OH→OH NO→EXHAUSTED",
+      "title": "THE DELTA-V METER"
+    },
+    {
+      "exhibit": "ATTACHMENT 42",
+      "sim": "S4",
+      "subject": "probability cloud — 5,000 ghost trajectories converging on the one chosen path; rejection tags on hover",
+      "title": "THREE TRILLION DOORS"
+    },
+    {
+      "exhibit": "FIG. 19",
+      "sim": "S5",
+      "subject": "shepherd fleet — captured asteroids in formation as gravity tractors; AUTHORIZED CORRIDOR band",
+      "title": "THE SHEPHERDS"
+    },
+    {
+      "exhibit": "FIG. 19B",
+      "sim": "S5",
+      "subject": "before/after — the corridor held (or didn't)",
+      "title": "THE NUDGE"
+    },
+    {
+      "exhibit": "EXHIBIT 27",
+      "sim": "S1+S3",
+      "subject": "capture — perigee burn; fast arrival, wider capture orbit",
+      "title": "EARTH, SOMEHOW"
+    },
+    {
+      "exhibit": "EXHIBIT 31",
+      "sim": "S1",
+      "subject": "Earth catch-up strip — the long fall compressed",
+      "title": "THE LONG FALL"
+    },
+    {
+      "exhibit": "EXHIBIT 51",
+      "sim": "S1+S5",
+      "subject": "Herschel Slip fracture map — the crack from Herschel's rim; 'THE RING IS WRONG' resonance plate",
+      "title": "THE SLIP"
+    }
+  ]
+}

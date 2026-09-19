@@ -1,1 +1,96 @@
-{"declassification_ladder":[{"access":"public","description":"Official story: helium-3 mining. Mission: SECURE HELIUM-3 RESERVES.","level":0,"name":"HELIUM-3"},{"access":"crew manifest","description":"Manifest lists WATER / VOLATILES / STRUCTURAL MATERIAL. Ren notices water-ice consumption wildly disproportionate to mining.","level":1,"name":"WATER / VOLATILES"},{"access":"engineering review","description":"Shell anomalies, vibration data, the 72-hour gap. Qiao's questions vanish from transcripts.","level":2,"name":"STRUCTURAL ANOMALIES"},{"access":"sealed appendix","description":"The Herschel Slip: fracture from Herschel's rim; \"expected settling\" is a lie. Mimas was being spent, not transported.","level":3,"name":"HERSCHEL SLIP"},{"access":"need-to-know","description":"The 159-mile heterogeneous exotic-mineral core. Metallic massifs. POWER, not price.","level":4,"name":"CORE"},{"access":"never","description":"Some voxels permanently unreadable. CORE STATUS: [REDACTED].","level":5,"name":"FINAL CANON [PARTIALLY UNREADABLE]"}],"disclaimer":"Real Saturn. Fictional crime.","motive_flip":["I. Official story — MISSION: SECURE HELIUM-3 RESERVES (Voss's testimony).","II. The math doesn't work — \"WHY ARE WE HAULING THE WHOLE MOON?\"","III. Checksum mismatch — \"helium-3\" was inserted into the archive AFTER mission records were sealed.","IV. The ice wasn't cargo, it was fuel — \"Mimas was never being transported intact. It was being spent.\"","V. The core reveal — not treasure, not a diamond: a 159-mile heterogeneous exotic body. Qiao: \"It's not worth anything.\" / \"That's the point.\""],"project":"Steal the Moon — Declassification"}
+{
+  "archive_fragments": [
+    {
+      "id": "buried_charge_logs",
+      "note": "buried charge placement logs at 2/7/17/25 mi depths",
+      "thread": "past/memory"
+    },
+    {
+      "id": "checksum_mismatch_helium3_insertion",
+      "note": "'helium-3' inserted into the archive AFTER mission records were sealed — three documents side-by-side: PUBLIC SUMMARY: HELIUM-3 EXTRACTION / CREW MANIFEST: WATER / VOLATILES / STRUCTURAL MATERIAL / ORIGINAL OBJECTIVE: [REDACTED]",
+      "thread": "past/memory"
+    },
+    {
+      "id": "robot_deployment_records",
+      "note": "robot deployment records under the ice; 2051 telemetry, some of it recent; telemetry feed with timestamps that should have stopped — and didn't; Dotty does not say whether anything is still awake down there",
+      "thread": "past/memory"
+    },
+    {
+      "id": "pre_heist_survey_foreknowledge",
+      "note": "pre-heist survey fragments hinting at foreknowledge of the core — never confirming",
+      "thread": "past/memory"
+    },
+    {
+      "id": "debate_thread",
+      "note": "AXIS 1 THE CHOICE / AXIS 2 THE PARENT threaded through beginning / middle / memory / late; full transcript late (Core screens); nobody wins; feeds FINAL CANON [PARTIALLY UNREADABLE]",
+      "thread": "beginning/middle/memory/late"
+    }
+  ],
+  "canon_hash": "PENDING — assigned at Phase 0 data lock (system-spec §9, §13 item 0.4)",
+  "declassification_ladder": [
+    {
+      "access": "public",
+      "description": "Official story: helium-3 mining. Mission: SECURE HELIUM-3 RESERVES.",
+      "granted_by": "start",
+      "level": 0,
+      "name": "HELIUM-3",
+      "reveals": "S1, S2 rehearsals, S3, Conventional tier, public codex",
+      "trust_cost": -5
+    },
+    {
+      "access": "crew manifest",
+      "description": "Manifest lists WATER / VOLATILES / STRUCTURAL MATERIAL. Ren notices water-ice consumption wildly disproportionate to mining.",
+      "granted_by": "break the S1 seal (Scene 1)",
+      "level": 1,
+      "name": "UNSEALED",
+      "reveals": "S4 cloud, Fission tier, Gary records, Atlas chain viewer",
+      "trust_cost": -5
+    },
+    {
+      "access": "engineering review",
+      "description": "Shell anomalies, vibration data, the 72-hour gap. Qiao's questions vanish from transcripts.",
+      "granted_by": "both S1 RECORD CONFLICTs + S2 rehearsal commit (Scene 4)",
+      "level": 2,
+      "name": "LEAKED",
+      "reveals": "S5, S3 RECONCILE (ghost 9.8), Fusion tier, charge-depth selector",
+      "trust_cost": -5
+    },
+    {
+      "access": "sealed appendix",
+      "description": "The Herschel Slip: fracture from Herschel's rim; \"expected settling\" is a lie. Mimas was being spent, not transported.",
+      "granted_by": "ACCEPT a billiards shot (Scene 6)",
+      "level": 3,
+      "name": "CORRECTED",
+      "reveals": "FORBIDDEN SHOT (1 use, L3 + trust ≥ 60), S-10 exhibit preview, secret codex",
+      "trust_cost": -5
+    },
+    {
+      "access": "need-to-know",
+      "description": "The 159-mile heterogeneous exotic-mineral core. Metallic massifs. POWER, not price.",
+      "granted_by": "reach Scene 11 with TRUST ≥ 40",
+      "level": 4,
+      "name": "COMPLICATED",
+      "reveals": "LISTEN prerequisites, top-secret codex (EXPOSURE meter already revealed at Scene 8 drill completion)",
+      "trust_cost": -5
+    },
+    {
+      "access": "never",
+      "description": "Some voxels permanently unreadable. CORE STATUS: [REDACTED].",
+      "granted_by": "CAPTURED win + VINDICATED verdict at L4 + S11 burn",
+      "level": 5,
+      "name": "FINAL CANON [PARTIALLY UNREADABLE]",
+      "reveals": "full canon browser, gold 'true' trajectory in S2, new-run+",
+      "trust_cost": -5
+    }
+  ],
+  "disclaimer": "Real Saturn. Fictional crime.",
+  "motive_flip": [
+    "I. Official story — MISSION: SECURE HELIUM-3 RESERVES (Voss's testimony).",
+    "II. The math doesn't work — \"WHY ARE WE HAULING THE WHOLE MOON?\"",
+    "III. Checksum mismatch — \"helium-3\" was inserted into the archive AFTER mission records were sealed.",
+    "IV. The ice wasn't cargo, it was fuel — \"Mimas was never being transported intact. It was being spent.\"",
+    "V. The core reveal — not treasure, not a diamond: a 159-mile heterogeneous exotic body. Qiao: \"It's not worth anything.\" / \"That's the point.\""
+  ],
+  "project": "Steal the Moon — Declassification",
+  "trust_rule": "−5 TRUST per declass grant — 'TRUST drains as redaction lifts' (system-spec §4)"
+}
