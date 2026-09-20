@@ -19,7 +19,9 @@ The truth is POWER, not price: "Whoever holds the core holds the next century."
 
 ## The build
 
-The full interactive artifact was built and verified on 2026-09-19:
+The full interactive artifact was built and verified on 2026-09-19. (The playable
+site itself is not committed to this repo — it lives with the author's working
+materials; this repo carries the open data, specs, and canon visuals.)
 
 - **24 screens across 7 sim systems**: 11 story scenes, 5 Saturn Billiards
   screens, 2 Core lab screens, 6 Archive screens.
