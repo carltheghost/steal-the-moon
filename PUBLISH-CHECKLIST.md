@@ -1,8 +1,9 @@
 # Publish checklist — steal-the-moon rebuild merge
 
 **Origin:** `carltheghost/steal-the-moon` at `042dba3` (origin/main).
-All work below is **local-only** — nothing has been pushed. See the standing rule
-at the bottom.
+Steal the Moon publishing is authorized by the user (2026-09-20: 'push anything
+and everything', 'put everything on my ripo git'). Verified work ships to
+`carltheghost/steal-the-moon` via the API push script.
 
 ## Exact changes vs origin
 
@@ -46,7 +47,7 @@ untouched.
 
 ## Standing rule
 
-**Pushing happens only through the user's logged-in browser session.** Do not
-`git push` from this VM — not now, not on schedule. When the user approves, the
+Pushing to this repo uses the API push script (`push-engine.py`) after
+verification. The old browser-session-only rule is superseded for this repo.
 browser route (their signed-in GitHub session) performs the push after this
 checklist is reviewed.
