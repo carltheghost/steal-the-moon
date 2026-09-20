@@ -49,7 +49,7 @@
         "irregular swarm"
       ],
       "cascade": "Target identification conflict; three conflicting designation records",
-      "date": "2049-06-17",
+      "date": "2029-09-30",
       "id": "00",
       "impulse_tier": null,
       "note": "Player may believe any two of the three records, not all three.",
@@ -62,7 +62,7 @@
         "Gary (captured irregular)"
       ],
       "cascade": "First real impulse — deliberately NOT a collision. Coupling efficiency is the unknown.",
-      "date": "2049-07-02",
+      "date": "2029-10-15",
       "id": "01",
       "impulse_tier": "FISSION",
       "outcome": "SUCCESS: YES. UNDERSTANDING: NO. Telemetry says the rock is not where the model predicted.",
@@ -74,7 +74,7 @@
         "Anthe region"
       ],
       "cascade": "A miss becomes a gravity assist",
-      "date": "2049-08-19",
+      "date": "2029-12-02",
       "id": "02",
       "impulse_tier": "FISSION",
       "outcome": "a miss can be a better shot than a hit",
@@ -88,7 +88,7 @@
         "Mimas neighborhood"
       ],
       "cascade": "Three-moon gravitational pocket",
-      "date": "2049-10-11",
+      "date": "2030-01-24",
       "id": "03",
       "impulse_tier": "FUSION",
       "outcome": "pocket threaded",
@@ -101,7 +101,7 @@
         "B-ring 2:1 resonance"
       ],
       "cascade": "NO explosion — the chain couples to Mimas and its orbital phase changes. The Cassini Division's resonance signature changes before anyone sees Mimas leave. First forensic clue.",
-      "date": "2050-01-06",
+      "date": "2030-04-21",
       "id": "04",
       "impulse_tier": null,
       "outcome": "\"THE RING IS WRONG\"",
@@ -114,7 +114,7 @@
         "Enceladus"
       ],
       "cascade": "Δv ledger starts diverging: reported 14.2 km/s / recovered 9.8 km/s — never resolve who lied.",
-      "date": "2050-04-23",
+      "date": "2030-08-06",
       "id": "05",
       "impulse_tier": "FUSION + Long Torch",
       "outcome": "ledger diverges",
@@ -127,7 +127,7 @@
         "Dione (2:1 resonance)"
       ],
       "cascade": "No impact. Gravity quietly does the work.",
-      "date": "2050-09-14",
+      "date": "2030-12-28",
       "id": "06",
       "impulse_tier": null,
       "note": "The quietest and most terrifying link.",
@@ -141,7 +141,7 @@
         "Mimas–Tethys 4:2"
       ],
       "cascade": "Famous near-miss; correction turns catastrophe into success. Every successful shot makes the next shot harder.",
-      "date": "2051-02-03",
+      "date": "2031-05-19",
       "id": "07",
       "impulse_tier": "FUSION",
       "note": "LOVE beat: Qiao's hesitation.",
@@ -154,7 +154,7 @@
         "Rhea"
       ],
       "cascade": "Enormous Δv spent correcting cumulative error. The fuel lie becomes mechanical.",
-      "date": "2051-05-18",
+      "date": "2031-08-31",
       "id": "08",
       "impulse_tier": "Long Torch ONLY",
       "outcome": "checkpoint held; ledger exposed",
@@ -167,7 +167,7 @@
         "Hyperion (4:3)"
       ],
       "cascade": "Emergency correction only. Hyperion's chaotic rotation: can you exploit an object that refuses to behave like a billiard ball?",
-      "date": "2051-08-27",
+      "date": "2031-12-10",
       "id": "09",
       "impulse_tier": "FORBIDDEN SHOT",
       "outcome": "redacted",
@@ -179,7 +179,7 @@
         "Mimas"
       ],
       "cascade": "Orbital elements change by a laughably small amount. Then the rings keep changing.",
-      "date": "2051-10-31",
+      "date": "2032-02-13",
       "id": "10",
       "impulse_tier": "BLACK EVENT + Long Torch",
       "note": "Remote momentum-transfer event — NOT an explosion on Mimas. UI strips to DISTANCE / TIME / IMPACT PROBABILITY / FIRE.",
@@ -193,7 +193,7 @@
         "Earth transfer"
       ],
       "cascade": "They did not invent a fuel-efficient way to move a moon. They invented a complicated way to make moving a moon someone else's problem.",
-      "date": "2052-04-12",
+      "date": "2032-07-26",
       "id": "11",
       "impulse_tier": "Long Torch only",
       "outcome": "Mimas begins Earth transfer",
@@ -216,7 +216,7 @@
   "phoebe_note": "Phoebe is the forbidden back door / graveyard, not an ordinary bumper.",
   "project": "Steal the Moon — The Saturn Billiards",
   "quest_stages": [
-    "I THE CASING (2049) — fellowship assembles",
+    "I THE CASING (2029) — fellowship assembles",
     "II THE FIRST SHOT — euphoria → telemetry wrong",
     "III THE LONG CHAIN — the game's core act",
     "IV THE RESONANCE — the quest map is a dynamical system",

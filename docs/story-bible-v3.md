@@ -202,7 +202,7 @@ Rhythm: sprint (1–3) → heist core with hearing breaks (4–7) → slow dread
 
 ### Scene 6 — "THE LONG FALL (A MONTAGE, BECAUSE PHYSICS TAKES A WHILE)"
 - **Layer:** AFTERMATH (flash-forward) → EVENT · **POV:** Earth ticker + Ren
-- **Beat:** The inward fall compressed: 14 months of burns and assists in a
+- **Beat:** The inward fall compressed: four months of burns and assists in a
   90-second montage. AFTERMATH interlude: 2051 interview with a teenager born on
   the Mimas mining station ("the Death Star is my night-light"). Wholesome —
   then Dotty: *"She's 19. The station's evacuation plan is 19 pages. Coincidence?
