@@ -1,53 +1,31 @@
-# Publish checklist — steal-the-moon rebuild merge
+# Publish checklist — steal-the-moon launch
 
-**Origin:** `carltheghost/steal-the-moon` at `042dba3` (origin/main).
-Steal the Moon publishing is authorized by the user (2026-09-20: 'push anything
-and everything', 'put everything on my ripo git'). Verified work ships to
-`carltheghost/steal-the-moon` via the API push script.
+## Current state
 
-## Exact changes vs origin
+The complete rebuilt browser artifact is committed at `web/index.html`.
 
-Run `git diff --stat origin/main` from `main` after review.
+The repository is wired for GitHub Pages deployment through `.github/workflows/deploy-pages.yml`. The workflow first validates canonical JSON, runs `scripts/check.py`, runs `scripts/check_web.py`, and only then deploys the `web/` directory.
 
-## The 3 new commits (local)
+## Verification now enforced
 
-1. `27d4381` — data: real 293-moon catalog, J2000 major-moon elements, verified NASA
-   imagery manifest
-2. `38f5025` — docs: simulation design, chronology resolution, wow features,
-   Neptune/Uranus removal audit
-3. layout: engine/ and web/ placeholders, rebuild index, publish checklist
+- [x] Canonical/rebuild JSON validation is encoded in the Pages workflow.
+- [x] Repository smoke check is encoded in the Pages workflow.
+- [x] Browser artifact size and required boot markers are checked.
+- [x] Runtime fetch/XHR/WebSocket/beacon/external script-style URL patterns are rejected by the artifact check.
+- [x] `web/.nojekyll` is present for static hosting hygiene.
+- [x] The site is a single self-contained HTML artifact; no backend or runtime CDN is required.
+- [x] Pages workflow uses `configure-pages`, `upload-pages-artifact`, and `deploy-pages`.
 
-## Files added (10)
+## Final account-level launch switch
 
-- `data/moons-293.json`
-- `data/major-moons-elements.json`
-- `data/nasa-imagery.json`
-- `docs/simulation-design.md`
-- `docs/chronology-resolution.md`
-- `docs/wow-features.md`
-- `docs/removal-audit.md`
-- `docs/REBUILD-INDEX.md`
-- `engine/README.md`
-- `web/README.md`
+The connected GitHub API reports `has_pages: false` for `carltheghost/steal-the-moon`. The code and automation are complete, but GitHub Pages itself is not enabled for this repository.
 
-No existing file was modified — all 8 canon `data/*.json` files, all existing
-`docs/*`, `README.md`, `LICENSE`, `STORY-STATUS.md`, `assets/`, and `scripts/` are
-untouched.
+Enable it once at:
 
-## What to verify before the browser-session push
+https://github.com/carltheghost/steal-the-moon/settings/pages
 
-- [ ] The 3 new JSONs parse (`python3 -m json.tool` each): 293 moons, 9 major moons,
-      10 imagery entries.
-- [ ] New docs render on GitHub (md headings intact).
-- [ ] No invented data — all figures come from the 2026-09-20 rebuild swarm
-      deliverables; `engine/` contains no fabricated code (placeholder only).
-- [ ] Assets untouched; canon files untouched.
-- [ ] Origin untouched — commits are local-only, branch is exactly 3 ahead of
-      `origin/main`.
+Set **Build and deployment → Source → GitHub Actions**.
 
-## Standing rule
+After that, every qualifying push to `main` deploys automatically and the expected public site is:
 
-Pushing to this repo uses the API push script (`push-engine.py`) after
-verification. The old browser-session-only rule is superseded for this repo.
-browser route (their signed-in GitHub session) performs the push after this
-checklist is reviewed.
+https://carltheghost.github.io/steal-the-moon/
