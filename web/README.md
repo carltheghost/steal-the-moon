@@ -2,7 +2,11 @@
 
 The complete rebuilt Steal the Moon site. `index.html` is the exported, self-contained build of the `steal-the-moon` artifact (2026-09-20): 24 navigable screens, seven simulation systems, Keplerian Saturn engine, baked imagery, local persistence, responsive/reduced-motion fallbacks, and zero runtime network requests.
 
-Open `index.html` directly in a browser for the standalone build.
+## Living Reality
+
+`living-reality.html` is the tactile 3-D navigation layer inspired by the maTumbo Living Reality demo: a glass-cube field for the archive and simulations with select, orbit, drag, double-click-to-dive, keyboard focus, Reality Lens, and local position persistence.
+
+Open `index.html` for the main archive, or `living-reality.html` for the Living Reality field.
 
 For hosted deployment, this directory is the GitHub Pages payload. The repository workflow verifies the artifact before publishing it.
 
