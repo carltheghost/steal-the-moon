@@ -19,9 +19,16 @@ The truth is POWER, not price: "Whoever holds the core holds the next century."
 
 ## The build
 
-The full interactive artifact was built and verified on 2026-09-19. (The playable
-site itself is not committed to this repo — it lives with the author's working
-materials; this repo carries the open data, specs, and canon visuals.)
+The complete interactive browser artifact is now committed in `web/index.html` and is the deploy target for the site. It is a self-contained static export with the renderer, UI, canonical story content, baked imagery, and local persistence.
+
+- **24 screens across 7 sim systems**: 11 story scenes, 5 Saturn Billiards screens, 2 Core lab screens, 6 Archive screens.
+- **7 simulations**: timeline, flyby sandbox, Δv ledger, Monte Carlo cloud, shepherd game, Saturn Billiards, Core.
+- **One shared `STEAL` state object**; a single `recompute(STEAL)` derives seed, scene, declassification, trust, trajectory, dual-pool Δv ledger, billiards, core.
+- **Stack**: pinned `three@0.186.0`, vanilla ES modules, deterministic handwritten math. Zero frameworks, zero paid services.
+- **Static artifact**: one HTML file with embedded JavaScript and data URIs for the vendored renderer and baked media; no runtime backend and no runtime CDN dependency.
+- **Launch automation**: `.github/workflows/deploy-pages.yml` runs JSON validation, repository smoke checks, browser-artifact checks, then publishes `web/` through GitHub Pages.
+- **Verification script**: `scripts/check_web.py` enforces artifact presence, size bounds, required boot markers, and the zero-runtime-network contract.
+- **Pages status**: the GitHub repository currently reports `has_pages: false`. The deployment workflow is ready, but the repository-level Pages setting must be enabled once in GitHub Settings before the first Pages deployment can execute.
 
 - **24 screens across 7 sim systems**: 11 story scenes, 5 Saturn Billiards
   screens, 2 Core lab screens, 6 Archive screens.
