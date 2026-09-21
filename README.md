@@ -11,6 +11,23 @@ drive, and what was really inside it.
 depicted. Moon data below is real (NASA/Cassini, IAU Minor Planet Center); the
 heist, the core, and the chain are fiction.
 
+## Launch
+
+The complete playable site is committed at `web/index.html` as a self-contained static artifact. It includes the archival UI, Saturn engine, 24 navigable screens, seven simulation systems, baked imagery, local persistence, reduced-motion fallbacks, and no runtime backend.
+
+**Intended GitHub Pages URL:** https://carltheghost.github.io/steal-the-moon/
+
+The repository now contains an automated Pages deployment workflow at `.github/workflows/deploy-pages.yml`. Before the first deployment, GitHub Pages must be enabled for the repository with **Settings → Pages → Build and deployment → Source: GitHub Actions**. The repository API currently reports Pages as disabled, so that account-level switch cannot be completed through the connected GitHub API. Once enabled, pushes to `main` run the verification gate and deploy `web/` automatically.
+
+## Verification
+
+The deployment workflow checks:
+
+- all canonical and rebuild JSON files parse;
+- `scripts/check.py` passes;
+- `web/index.html` exists at the expected scale and contains the required self-contained boot markers;
+- the shipped artifact contains no direct runtime `fetch`, XHR, WebSocket, beacon, or external script/style URL patterns.
+
 ## The canon in 60 seconds
 
 - Mimas departs Saturn at **246 miles** diameter (NASA figure): a **159-mile
