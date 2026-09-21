@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "web/**"
+      - "scripts/check.py"
+      - "scripts/check_web.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -18,7 +20,40 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  verify:
+    name: Verify static artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate canonical JSON
+        run: |
+          python3 -m json.tool data/canon.json >/dev/null
+          python3 -m json.tool data/chain.json >/dev/null
+          python3 -m json.tool data/characters.json >/dev/null
+          python3 -m json.tool data/scenes.json >/dev/null
+          python3 -m json.tool data/declassification.json >/dev/null
+          python3 -m json.tool data/stills.json >/dev/null
+          python3 -m json.tool data/moons.json >/dev/null
+          python3 -m json.tool data/moons-293.json >/dev/null
+          python3 -m json.tool data/major-moons-elements.json >/dev/null
+          python3 -m json.tool data/nasa-imagery.json >/dev/null
+          python3 -m json.tool data/vvej.json >/dev/null
+          python3 -m json.tool data/saturn-day.json >/dev/null
+          python3 -m json.tool data/titan-lakes.json >/dev/null
+          python3 -m json.tool data/enceladus-plume.json >/dev/null
+          python3 -m json.tool data/division-profile.json >/dev/null
+
+      - name: Run repository smoke check
+        run: python3 scripts/check.py
+
+      - name: Verify exported browser artifact
+        run: python3 scripts/check_web.py
+
   deploy:
+    name: Deploy to GitHub Pages
+    needs: verify
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
