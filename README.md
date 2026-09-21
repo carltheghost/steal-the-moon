@@ -61,6 +61,9 @@ The deployment workflow checks:
 | `declassification.json` | LEVEL 0 (HELIUM-3) → LEVEL 4 (CORE) → FINAL CANON [PARTIALLY UNREADABLE], plus the 5-reveal motive flip |
 | `stills.json` | 11 planned exhibit stills (EXHIBIT 1A … EXHIBIT 51), palette, render notes |
 | `moons.json` | Saturn's 293: 24 regular moons with real data; irregulars grouped by family (unknowns explicit) |
+| `moons-293.json` | Rebuild catalog: 293 Saturn moons with verified/catalog-status metadata |
+| `major-moons-elements.json` | J2000 mean elements and physical parameters for the major Saturn moons |
+| `nasa-imagery.json` | Approved NASA/Cassini imagery manifest and provenance for baked assets |
 
 ## Specs (`docs/`)
 
