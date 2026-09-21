@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>STEAL THE MOON · Living Reality</title>
+<style>
+:root{--bg:#05070d;--panel:rgba(8,12,22,.84);--line:rgba(130,210,255,.24);--strong:rgba(140,225,255,.6);--text:#e8f7ff;--muted:#8ca6b7;--accent:#79d8ff}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle at 50% 20%,#0d1726,#05070d 55%,#020307);color:var(--text);font:14px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+button{font:inherit;color:inherit;background:rgba(5,8,14,.64);border:1px solid var(--line);border-radius:8px;padding:8px 10px;cursor:pointer}button:hover{border-color:var(--strong);background:rgba(121,216,255,.08)}
+#app{position:relative;width:100%;height:100%}canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+.hud{position:absolute;inset:12px 12px auto;display:flex;justify-content:space-between;gap:10px;z-index:5;pointer-events:none}.hud>*{pointer-events:auto}.brand,.panel,.chip{background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(14px);box-shadow:0 8px 30px #0005}
+.brand{padding:10px 12px;border-radius:10px;min-width:270px}.brand b{display:block;letter-spacing:.08em}.brand span{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.panel{position:absolute;z-index:5;border-radius:12px;padding:12px;overflow:auto}.left{left:12px;top:86px;width:min(320px,calc(100vw - 24px));max-height:calc(100vh - 180px)}.right{right:12px;top:86px;width:min(360px,calc(100vw - 24px));max-height:calc(100vh - 180px)}.panel h2{margin:0 0 7px;font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}.panel p{color:#c7d9e2;font-size:11px}
+.directory{display:grid;gap:6px}.card{display:grid;grid-template-columns:9px 1fr auto;gap:8px;align-items:center;border:1px solid #82d2ff24;border-radius:8px;padding:8px;cursor:pointer}.card:hover,.card.active{border-color:var(--strong);background:#79d8ff12}.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px #79d8ff99}.meta{color:var(--muted);font-size:10px}.kbd{color:var(--muted);font-size:10px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:7px}.metric{border:1px solid #82d2ff22;border-radius:8px;padding:8px}.metric span{display:block;color:var(--muted);font-size:10px;text-transform:uppercase}.metric b{font-size:12px}
+.bottom{position:absolute;z-index:5;left:12px;right:12px;bottom:12px;display:flex;justify-content:space-between;gap:8px}.chip{padding:8px 10px;border-radius:10px;color:var(--muted)}
+.overlay{display:none;position:absolute;inset:0;z-index:10;place-items:center;background:#020408b8;backdrop-filter:blur(4px)}.overlay.open{display:grid}.modal{width:min(680px,calc(100vw - 24px));max-height:80vh;overflow:auto;background:#070a11f7;border:1px solid var(--strong);border-radius:16px;padding:16px}.modal h1{font-size:18px;margin:0 0 8px}.modal p{color:#c7d9e2}.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}.grid div{border:1px solid #82d2ff22;border-radius:8px;padding:9px}.close{float:right}
+@media(max-width:800px){.left{left:8px;top:auto;bottom:64px;max-height:42vh}.right{right:8px;top:auto;bottom:64px;max-height:42vh}.brand{min-width:0}.hud{inset:8px}.hint{display:none}.actions button:nth-child(n+4){display:none}.bottom{left:8px;right:8px;bottom:8px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="app">
+<canvas id="world" aria-label="Interactive 3-D living reality field"></canvas>
+<div class="hud">
+  <div class="brand"><b>STEAL THE MOON · LIVING REALITY Ω</b><span id="crumb">FIELD / ARCHIVE</span></div>
+  <div class="actions"><button id="reset">RESET CAMERA · R</button><button id="lens">REALITY LENS</button><button id="help">EXPLAIN</button></div>
+</div>
+<div class="panel left">
+  <h2>Mission Control · Open a surface</h2>
+  <p>Single click selects. Drag moves a cube. Double click dives into it. Drag empty space to orbit. Wheel zooms.</p>
+  <div id="directory" class="directory"></div>
+</div>
+<div class="panel right">
+  <h2>Local projection · shared state</h2>
+  <div class="metrics">
+    <div class="metric"><span>Selection</span><b id="sel">NONE</b></div>
+    <div class="metric"><span>Depth</span><b id="depth">3D</b></div>
+    <div class="metric"><span>Trace</span><b id="trace">FIELD</b></div>
+    <div class="metric"><span>State</span><b>LOCAL ONLY</b></div>
+  </div>
+  <p>These are navigation surfaces for the existing archive. They do not replace or mutate canonical story data.</p>
+  <button id="open">OPEN SELECTED</button>
+</div>
+<div class="bottom"><div class="chip" id="status">READY · CLICK A CUBE</div><div class="chip hint">ARROWS focus · ENTER open · F directory · R reset</div></div>
+<div class="overlay" id="overlay"><div class="modal"><button class="close" id="close">×</button><h1 id="mt">Living Reality</h1><p id="mb"></p><div class="grid" id="mg"></div><a href="./" style="display:inline-block;color:#79d8ff;border:1px solid #82d2ff44;padding:8px 10px;border-radius:8px;text-decoration:none">OPEN ARCHIVE</a></div></div>
+</div>
+<script>
+(function(){
+'use strict';
+var canvas=document.getElementById('world'),ctx=canvas.getContext('2d');
+var S={yaw:.62,pitch:-.42,zoom:1.05,sel:-1,hover:-1,drag:null,lens:false,key:'stm-living-reality-v1'};
+var C=[
+{id:'archive',t:'ARCHIVE',m:'24-screen master record',x:-6,y:1,z:0,c:0,p:1},
+{id:'billiards',t:'SATURN BILLIARDS',m:'12-link chain',x:-2,y:2,z:-1,c:1,p:1},
+{id:'timeline',t:'TRAJECTORY TIMELINE',m:'S1 · scrub + compare',x:2,y:3,z:1,c:2,p:1},
+{id:'flyby',t:'FLYBY SANDBOX',m:'S2 · one-second cascade',x:6,y:1,z:-1,c:3,p:1},
+{id:'dv',t:'ΔV LEDGER',m:'S3 · budget + reserve',x:-5,y:-2,z:2,c:4,p:0},
+{id:'cloud',t:'PROBABILITY CLOUD',m:'S4 · Monte Carlo',x:-1,y:-1,z:3,c:5,p:0},
+{id:'shepherd',t:'SHEPHERD GAME',m:'S5 · nudge the chain',x:3,y:-2,z:-2,c:6,p:0},
+{id:'core',t:'CORE TRUTH',m:'5-reveal motive flip',x:7,y:-1,z:2,c:7,p:1},
+{id:'ren',t:'REN',m:'captain POV',x:-7,y:4,z:3,c:8,p:0},
+{id:'qiao',t:'QIAO',m:'copilot POV',x:0,y:5,z:-3,c:9,p:0},
+{id:'voss',t:'VOSS',m:'defector POV',x:5,y:5,z:2,c:10,p:0},
+{id:'contradictions',t:'CONTRADICTION LEDGER',m:'catch the lie',x:0,y:-4,z:-4,c:11,p:1}
+];
+var L=[[0,1],[0,4],[0,8],[1,2],[1,5],[1,9],[2,3],[2,6],[2,10],[3,7],[4,5],[5,6],[8,9],[9,10],[10,11],[6,11],[7,11]];
+var P=['#79d8ff','#9ab8ff','#ffca73','#ff7e9b','#76ffd0','#c39bff','#8be1ff','#f2f2ff','#67c9ff','#9ed8ff','#ffc57b','#89ffcf'];
+function size(){var d=Math.min(devicePixelRatio||1,2);canvas.width=innerWidth*d;canvas.height=innerHeight*d;ctx.setTransform(d,0,0,d,0,0);draw()}
+function rot(x,y,z){var c=Math.cos(S.yaw),s=Math.sin(S.yaw),x1=x*c-z*s,z1=x*s+z*c,cp=Math.cos(S.pitch),sp=Math.sin(S.pitch);return{x:x1,y:y*cp-z1*sp,z:y*sp+z1*cp}}
+function proj(x,y,z){var r=rot(x,y,z),f=360*S.zoom/(18+r.z);return{x:innerWidth/2+r.x*f,y:innerHeight*.53-r.y*f,s:f}}
+function line(a,b,col,w){ctx.strokeStyle=col;ctx.lineWidth=w;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}
+function draw(){ctx.clearRect(0,0,innerWidth,innerHeight);for(var i=-18;i<=18;i++)line(proj(i,-5,-8),proj(i,-5,8),'#79d8ff0b',1);for(var j=-10;j<=10;j++)line(proj(-14,-5,j),proj(14,-5,j),'#79d8ff0b',1);L.forEach(function(e){line(proj(C[e[0]].x,C[e[0]].y,C[e[0]].z),proj(C[e[1]].x,C[e[1]].y,C[e[1]].z),'#79d8ff1f',1)});C.map(function(c,i){return{c:c,i:i,z:rot(c.x,c.y,c.z).z}}).sort(function(a,b){return a.z-b.z}).forEach(function(o){var p=proj(o.c.x,o.c.y,o.c.z),z=Math.max(13,56*p.s/360),hot=o.i===S.sel,hov=o.i===S.hover;ctx.save();ctx.shadowBlur=hot?18:hov?10:0;ctx.shadowColor=P[o.c.c];ctx.strokeStyle=hot||hov?'#dcfaff':'#79d8ff59';ctx.fillStyle=hot?'#2878a03d':'#2878a01c';ctx.lineWidth=hot?2:1;ctx.strokeRect(p.x-z/2,p.y-z/2,z,z);ctx.fillRect(p.x-z/2,p.y-z/2,z,z);ctx.globalAlpha=.4;ctx.strokeStyle=P[o.c.c];ctx.strokeRect(p.x-z*.34,p.y-z*.34,z*.68,z*.68);ctx.restore();if(hot||hov){ctx.fillStyle='#e8f7ff';ctx.font='11px ui-monospace,monospace';ctx.textAlign='center';ctx.fillText(o.c.t,p.x,p.y-z/2-7)}});if(S.lens){var q=S.sel<0?{x:innerWidth/2,y:innerHeight*.53}:proj(C[S.sel].x,C[S.sel].y,C[S.sel].z),g=ctx.createRadialGradient(q.x,q.y,4,q.x,q.y,140);g.addColorStop(0,'#79d8ff2f');g.addColorStop(1,'#79d8ff00');ctx.fillStyle=g;ctx.beginPath();ctx.arc(q.x,q.y,140,0,Math.PI*2);ctx.fill()}}
+function hit(x,y){var best=-1,bd=1e9;C.forEach(function(c,i){var p=proj(c.x,c.y,c.z),d=Math.hypot(x-p.x,y-p.y),z=Math.max(16,56*p.s/360);if(d<z*.75&&d<bd){best=i;bd=d}});return best}
+function select(i){S.sel=i;document.getElementById('sel').textContent=i<0?'NONE':C[i].t;document.getElementById('status').textContent=i<0?'READY · CLICK A CUBE':'SELECTED · '+C[i].t;document.getElementById('trace').textContent=i<0?'FIELD':C[i].id.toUpperCase();renderDir();draw()}
+function focus(i){if(i<0)return;S.yaw+=Math.atan2(-C[i].z,C[i].x)-S.yaw;S.pitch=-Math.atan2(C[i].y,Math.max(3,Math.hypot(C[i].x,C[i].z)))*.25;select(i)}
+function openSel(){if(S.sel<0)return;var c=C[S.sel];document.getElementById('crumb').textContent='FIELD / '+c.t;document.getElementById('depth').textContent='4D';document.getElementById('mt').textContent=c.t;document.getElementById('mb').textContent='LOCAL PROJECTION · '+c.m+'. This surface uses the Living Reality interaction model while leaving the canonical archive state untouched.';document.getElementById('mg').innerHTML='<div><small>INTERACTION</small><br><b>'+(c.p?'DOUBLE-ACTIVATE = DIVE':'DRAG = MOVE')+'</b></div><div><small>AUTHORITY</small><br><b>LOCAL ONLY</b></div><div><small>STATE</small><br><b>SHARED WITH ARCHIVE</b></div><div><small>TRACE</small><br><b>'+c.id.toUpperCase()+'</b></div>';document.getElementById('overlay').classList.add('open')}
+function renderDir(){var root=document.getElementById('directory');root.innerHTML='';C.forEach(function(c,i){var e=document.createElement('div');e.className='card'+(i===S.sel?' active':'');e.innerHTML='<div class="dot"></div><div><b>'+c.t+'</b><div class="meta">'+c.m+'</div></div><div class="kbd">'+(i+1)+'</div>';e.onclick=function(){focus(i)};e.ondblclick=function(){select(i);openSel()};root.appendChild(e)})}
+renderDir();
+canvas.addEventListener('pointermove',function(e){S.hover=hit(e.clientX,e.clientY);if(S.drag!==null){if(S.drag==='orbit'){S.yaw=S.sy+(e.clientX-S.x)*.006;S.pitch=Math.max(-1.25,Math.min(.65,S.sp+(e.clientY-S.y)*.004))}else{C[S.drag].x=S.cx+(e.clientX-S.x)/64;C[S.drag].y=S.cy+(S.y-e.clientY)/64;save()}}draw()});
+canvas.addEventListener('pointerdown',function(e){var i=hit(e.clientX,e.clientY);if(i>=0){select(i);S.drag=i;S.x=e.clientX;S.y=e.clientY;S.cx=C[i].x;S.cy=C[i].y}else{S.drag='orbit';S.x=e.clientX;S.y=e.clientY;S.sy=S.yaw;S.sp=S.pitch}canvas.setPointerCapture&&canvas.setPointerCapture(e.pointerId)});
+canvas.addEventListener('pointerup',function(){S.drag=null});
+canvas.addEventListener('dblclick',function(e){var i=hit(e.clientX,e.clientY);if(i>=0){select(i);openSel()}});
+canvas.addEventListener('wheel',function(e){e.preventDefault();S.zoom=Math.max(.62,Math.min(1.6,S.zoom*(e.deltaY>0?.92:1.08)));draw()},{passive:false});
+document.getElementById('open').onclick=openSel;document.getElementById('lens').onclick=function(){S.lens=!S.lens;draw()};document.getElementById('reset').onclick=function(){S={yaw:.62,pitch:-.42,zoom:1.05,sel:-1,hover:-1,drag:null,lens:false,key:S.key};load();select(-1);document.getElementById('crumb').textContent='FIELD / ARCHIVE';document.getElementById('depth').textContent='3D';draw()};document.getElementById('help').onclick=function(){document.getElementById('mt').textContent='LIVING REALITY · CONTROLS';document.getElementById('mb').textContent='A local navigation layer around the archive: pick a cube, orbit the field, drag a block, or double activate a portal to inspect its surface.';document.getElementById('mg').innerHTML='<div><small>SELECT</small><br><b>CLICK / TAP</b></div><div><small>MOVE</small><br><b>DRAG</b></div><div><small>DIVE</small><br><b>DOUBLE CLICK</b></div><div><small>RESET</small><br><b>R</b></div>';document.getElementById('overlay').classList.add('open')};document.getElementById('close').onclick=function(){document.getElementById('overlay').classList.remove('open')};
+document.addEventListener('keydown',function(e){if(e.key.toLowerCase()==='r')document.getElementById('reset').click();else if(e.key==='Enter')openSel();else if(e.key.startsWith('Arrow')){var i=S.sel<0?0:S.sel;i=(i+(e.key==='ArrowRight'||e.key==='ArrowDown'?1:-1)+C.length)%C.length;focus(i);e.preventDefault()}});
+function save(){try{localStorage.setItem(S.key,JSON.stringify(C.map(function(c){return{id:c.id,x:c.x,y:c.y,z:c.z}})))}catch(_){}}
+function load(){try{var a=JSON.parse(localStorage.getItem(S.key)||'null');if(Array.isArray(a))a.forEach(function(s){var c=C.find(function(x){return x.id===s.id});if(c){c.x=s.x;c.y=s.y;c.z=s.z}})}catch(_){}}
+addEventListener('resize',size);load();size();
+})();
+</script>
+</body></html>
