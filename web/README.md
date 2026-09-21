@@ -9,3 +9,5 @@ For hosted deployment, this directory is the GitHub Pages payload. The repositor
 Expected hosted URL after enabling GitHub Pages with **Source = GitHub Actions**:
 
 https://carltheghost.github.io/steal-the-moon/
+
+Deployment contract: this directory is published by `.github/workflows/deploy-pages.yml` after all verification gates pass.
